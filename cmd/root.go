@@ -41,8 +41,10 @@ var rootCmd = &cobra.Command{
 		}
 		//fmt.Println(doc)
 
-		links := doc.Find("h2").First().Text()
+		h2 := doc.Find("h2").First().Text() //"returns text from first h2 tag "
+		links := doc.Find("div.mw-content-ltr").Size()
 		fmt.Println(links)
+		fmt.Println(h2)
 		fmt.Println("visual break")
 
 		// file, _ := os.Open("./cmd/example.txt")
