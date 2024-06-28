@@ -5,11 +5,11 @@ package cmd
 
 import (
 	"fmt"
-	"io"
 	"log"
 	"net/http"
 	"os"
 
+	"github.com/PuerkitoBio/goquery"
 	"github.com/spf13/cobra"
 )
 
@@ -29,22 +29,24 @@ var rootCmd = &cobra.Command{
 		}
 		defer resp.Body.Close()
 
-		bytes, _ := io.ReadAll(resp.Body)
-
+		// bytes, _ := io.ReadAll(resp.Body)
+		//stringByte := string(bytes)
 		// print to console
-		fmt.Println("Response status:", resp.Status)
-		fmt.Println(string(bytes))
-		os.WriteFile("websites/test.html", bytes)
-		// fetch the page
-		// clean the page
-		// save the page
-		// get the links
-		// go through each link and do the same
+		fmt.Println("Response status:", resp.Status) //print reponse status
+		//fmt.Println(string(bytes))                      //print the html tree
+		// os.WriteFile("websites/test.html", bytes, 0777) //write the data to a file with open permissions
+		doc, err := goquery.NewDocumentFromReader(resp.Body)
+		if err != nil {
+			log.Fatal(err)
+		}
+		//fmt.Println(doc)
+
+		links := doc.Find("h2").First().Text()
+		fmt.Println(links)
+		fmt.Println("visual break")
 
 		// file, _ := os.Open("./cmd/example.txt")
 		// bytes, _ := io.ReadAll(file)
-
-		// fmt.Println(bytes)
 	},
 }
 
@@ -69,3 +71,9 @@ func init() {
 	rootCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 	//grootCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 }
+
+type Link struct {
+	number, url string
+}
+
+var wikilinks []Link
