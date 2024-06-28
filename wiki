@@ -3,7 +3,7 @@
 <div id="mp-welcomecount">
 <div id="mp-welcome"><h1><span class="mw-headline" id="Welcome_to_Wikipedia">Welcome to <a href="/wiki/Wikipedia" title="Wikipedia">Wikipedia</a></span></h1>,</div>
 <div id="mp-free">the <a href="/wiki/Free_content" title="Free content">free</a> <a href="/wiki/Encyclopedia" title="Encyclopedia">encyclopedia</a> that <a href="/wiki/Help:Introduction_to_Wikipedia" title="Help:Introduction to Wikipedia">anyone can edit</a>.</div>
-<div id="articlecount"><a href="/wiki/Special:Statistics" title="Special:Statistics">6,842,557</a> articles in <a href="/wiki/English_language" title="English language">English</a></div>
+<div id="articlecount"><a href="/wiki/Special:Statistics" title="Special:Statistics">6,842,558</a> articles in <a href="/wiki/English_language" title="English language">English</a></div>
 </div>
 </div>
 <div id="mp-upper">
@@ -313,13 +313,13 @@ Recently featured: <link rel="mw-deduplicated-inline-style" href="mw-data:Templa
 </div>                                                
 <!-- 
 NewPP limit report
-Parsed by mw‐web.eqiad.main‐b7d4d997‐mlpqv
-Cached time: 20240628183523
+Parsed by mw‐web.eqiad.main‐b7d4d997‐jprzp
+Cached time: 20240628184803
 Cache expiry: 3600
 Reduced expiry: true
 Complications: [no‐toc]
-CPU time usage: 0.344 seconds
-Real time usage: 0.597 seconds
+CPU time usage: 0.463 seconds
+Real time usage: 0.659 seconds
 Preprocessor visited node count: 5532/1000000
 Post‐expand include size: 144766/2097152 bytes
 Template argument size: 14825/2097152 bytes
@@ -327,23 +327,23 @@ Highest expansion depth: 18/100
 Expensive parser function count: 15/500
 Unstrip recursion depth: 0/20
 Unstrip post‐expand size: 46372/5000000 bytes
-Lua time usage: 0.064/10.000 seconds
+Lua time usage: 0.092/10.000 seconds
 Lua memory usage: 3639677/52428800 bytes
 Number of Wikibase entities loaded: 0/400
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00%  318.898      1 -total
- 28.87%   92.067      1 Wikipedia:Main_Page/Tomorrow
- 20.67%   65.928      1 Wikipedia:Today's_featured_article/June_28,_2024
- 20.13%   64.187      9 Template:Main_page_image
- 14.47%   46.152      9 Template:Str_number/trim
- 13.38%   42.683      1 Template:Did_you_know
- 13.14%   41.892      2 Template:Wikipedia_languages
- 12.11%   38.624      1 Template:Did_you_know/Queue/4
- 11.01%   35.125     28 Template:Flatlist
- 10.56%   33.671      2 Template:Main_page_image/TFA
+100.00%  453.275      1 -total
+ 24.73%  112.098      1 Wikipedia:Main_Page/Tomorrow
+ 20.27%   91.890      1 Wikipedia:Today's_featured_article/June_28,_2024
+ 20.20%   91.546      9 Template:Main_page_image
+ 16.56%   75.054      1 Template:Did_you_know
+ 14.75%   66.855      9 Template:Str_number/trim
+ 11.93%   54.087      2 Template:Wikipedia_languages
+ 11.51%   52.162      2 Template:Main_page_image/TFA
+ 11.44%   51.864      1 Template:Did_you_know/Queue/4
+  9.43%   42.732      1 Template:Convert
 -->
 
-<!-- Saved in parser cache with key enwiki:pcache:idhash:15580374-0!canonical and timestamp 20240628183523 and revision id 1225315602. Rendering was triggered because: page-view
+<!-- Saved in parser cache with key enwiki:pcache:idhash:15580374-0!canonical and timestamp 20240628184803 and revision id 1225315602. Rendering was triggered because: page-view
  -->

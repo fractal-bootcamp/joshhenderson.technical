@@ -52,12 +52,19 @@ var rootCmd = &cobra.Command{
 
 		h2 := doc.Find("h2").First().Text() //"returns text from first h2 tag "
 
-		section, err := doc.Find("div.mw-content-ltr").Html()
-		if err != nil {
-			log.Fatal(err)
-		}
-		writeFile(section, "index")
-		fmt.Println(section)
+		// section, err := doc.Find("div.mw-content-ltr").Html()
+		// if err != nil {
+		// 	log.Fatal(err)
+		// }
+
+		doc.Find("div.mw-content-ltr").Find("p").Each(func(index int, item *goquery.Selection) {
+			url, _ := item.Find("a").Attr("href")
+			fmt.Println(url)
+		})
+
+		//fmt.Println(links) // print links
+		//writeFile(section, "wiki")
+		//fmt.Println(section)
 		fmt.Println(h2)
 		fmt.Println("visual break")
 
