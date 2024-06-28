@@ -13,6 +13,15 @@ import (
 	"github.com/spf13/cobra"
 )
 
+func writeFile(data, filename string) {
+	file, err := os.Create(filename)
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer file.Close()
+	file.WriteString(data)
+}
+
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
 	Use:   "scraper",
@@ -42,8 +51,13 @@ var rootCmd = &cobra.Command{
 		//fmt.Println(doc)
 
 		h2 := doc.Find("h2").First().Text() //"returns text from first h2 tag "
-		links := doc.Find("div.mw-content-ltr").Size()
-		fmt.Println(links)
+
+		section, err := doc.Find("div.mw-content-ltr").Html()
+		if err != nil {
+			log.Fatal(err)
+		}
+		writeFile(section, "index")
+		fmt.Println(section)
 		fmt.Println(h2)
 		fmt.Println("visual break")
 
