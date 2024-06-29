@@ -1,316 +1,1237 @@
-<style data-mw-deduplicate="TemplateStyles:r1225316504">.mw-parser-output .mp-box{border:1px solid #aaa;padding:0 0.5em 0.5em;margin-top:4px}.mw-parser-output .mp-h2,body.skin-timeless .mw-parser-output .mp-h2{border:1px solid #aaa;margin:0.5em 0;padding:0.2em 0.4em;font-size:120%;font-weight:bold;font-family:inherit}.mw-parser-output .mp-later{font-size:85%;font-weight:normal}.mw-parser-output #mp-topbanner{background-color:#f9f9f9;border-color:#ddd}.mw-parser-output #mp-welcomecount{text-align:center;margin:0.4em}.mw-parser-output #mp-welcome{font-size:162%;padding:0.1em}.mw-parser-output #mp-welcome h1,.mw-parser-output #mp-welcome .mw-heading1{font-size:inherit;font-family:inherit;display:inline;border:none}.mw-parser-output #mp-free{font-size:95%}.mw-parser-output #articlecount{font-size:85%}.mw-parser-output .mp-contains-float::after{content:"";display:block;clear:both}.mw-parser-output #mp-banner{background-color:#fffaf5;border-color:#f2e0ce}.mw-parser-output #mp-left{background-color:#f5fffa;border-color:#cef2e0}.mw-parser-output #mp-left .mp-h2{background-color:#cef2e0;border-color:#a3bfb1}.mw-parser-output #mp-right{background-color:#f5faff;border-color:#cedff2}.mw-parser-output #mp-right .mp-h2{background-color:#cedff2;border-color:#a3b0bf}.mw-parser-output #mp-middle{background-color:#fff5fa;border-color:#f2cedd}.mw-parser-output #mp-middle .mp-h2{background-color:#f2cedd;border-color:#bfa3af}.mw-parser-output #mp-lower{background-color:#faf5ff;border-color:#ddcef2}.mw-parser-output #mp-lower .mp-h2{background-color:#ddcef2;border-color:#afa3bf}.mw-parser-output #mp-bottom{border-color:#e2e2e2}.mw-parser-output #mp-bottom .mp-h2{background-color:#eee;border-color:#ddd}@media(max-width:875px){.mw-parser-output #mp-tfp table,.mw-parser-output #mp-tfp tr,.mw-parser-output #mp-tfp td,.mw-parser-output #mp-tfp tbody{display:block!important;width:100%!important;box-sizing:border-box}.mw-parser-output #mp-tfp tr:first-child td:first-child a.mw-file-description{text-align:center;display:table;margin:0 auto}}@media(min-width:875px){.mw-parser-output #mp-upper{display:flex}.mw-parser-output #mp-left{flex:1 1 55%;margin-right:2px}.mw-parser-output #mp-right{flex:1 1 45%;margin-left:2px}}html.skin-theme-clientpref-night .mw-parser-output #mp-topbanner{background-color:#171a1d;border-color:#676767}html.skin-theme-clientpref-night .mw-parser-output #mp-banner{background-color:#431107;border-color:#663428}html.skin-theme-clientpref-night .mw-parser-output #mp-left{background-color:#0b1e1c;border-color:#104437}html.skin-theme-clientpref-night .mw-parser-output #mp-left .mp-h2{background-color:#104437;border-color:#2f4d41}html.skin-theme-clientpref-night .mw-parser-output #mp-right{background-color:#0d1a27;border-color:#082849}html.skin-theme-clientpref-night .mw-parser-output #mp-right .mp-h2{background-color:#082849;border-color:#a3b0bf}html.skin-theme-clientpref-night .mw-parser-output #mp-middle{background-color:#270e1a;border-color:#882c43}html.skin-theme-clientpref-night .mw-parser-output #mp-middle .mp-h2{background-color:#882c43;border-color:#926c80}html.skin-theme-clientpref-night .mw-parser-output #mp-lower{background-color:#130e20;border-color:#7545ab}html.skin-theme-clientpref-night .mw-parser-output #mp-lower .mp-h2{background-color:#7545ab;border-color:#afa3bf}html.skin-theme-clientpref-night .mw-parser-output #mp-bottom{border-color:#676767}html.skin-theme-clientpref-night .mw-parser-output #mp-bottom .mp-h2{background-color:#3d3d3d;border-color:#676767}@media(prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output #mp-topbanner{background-color:#171a1d;border-color:#676767}html.skin-theme-clientpref-os .mw-parser-output #mp-banner{background-color:#431107;border-color:#663428}html.skin-theme-clientpref-os .mw-parser-output #mp-left{background-color:#0b1e1c;border-color:#104437}html.skin-theme-clientpref-os .mw-parser-output #mp-left .mp-h2{background-color:#104437;border-color:#2f4d41}html.skin-theme-clientpref-os .mw-parser-output #mp-right{background-color:#0d1a27;border-color:#082849}html.skin-theme-clientpref-os .mw-parser-output #mp-right .mp-h2{background-color:#082849;border-color:#a3b0bf}html.skin-theme-clientpref-os .mw-parser-output #mp-middle{background-color:#270e1a;border-color:#882c43}html.skin-theme-clientpref-os .mw-parser-output #mp-middle .mp-h2{background-color:#882c43;border-color:#926c80}html.skin-theme-clientpref-os .mw-parser-output #mp-lower{background-color:#130e20;border-color:#7545ab}html.skin-theme-clientpref-os .mw-parser-output #mp-lower .mp-h2{background-color:#7545ab;border-color:#afa3bf}html.skin-theme-clientpref-os .mw-parser-output #mp-bottom{border-color:#676767}html.skin-theme-clientpref-os .mw-parser-output #mp-bottom .mp-h2{background-color:#3d3d3d;border-color:#676767}}</style>
+<style data-mw-deduplicate="TemplateStyles:r1225316504">
+  .mw-parser-output .mp-box {
+    border: 1px solid #aaa;
+    padding: 0 0.5em 0.5em;
+    margin-top: 4px
+  }
+
+  .mw-parser-output .mp-h2,
+  body.skin-timeless .mw-parser-output .mp-h2 {
+    border: 1px solid #aaa;
+    margin: 0.5em 0;
+    padding: 0.2em 0.4em;
+    font-size: 120%;
+    font-weight: bold;
+    font-family: inherit
+  }
+
+  .mw-parser-output .mp-later {
+    font-size: 85%;
+    font-weight: normal
+  }
+
+  .mw-parser-output #mp-topbanner {
+    background-color: #f9f9f9;
+    border-color: #ddd
+  }
+
+  .mw-parser-output #mp-welcomecount {
+    text-align: center;
+    margin: 0.4em
+  }
+
+  .mw-parser-output #mp-welcome {
+    font-size: 162%;
+    padding: 0.1em
+  }
+
+  .mw-parser-output #mp-welcome h1,
+  .mw-parser-output #mp-welcome .mw-heading1 {
+    font-size: inherit;
+    font-family: inherit;
+    display: inline;
+    border: none
+  }
+
+  .mw-parser-output #mp-free {
+    font-size: 95%
+  }
+
+  .mw-parser-output #articlecount {
+    font-size: 85%
+  }
+
+  .mw-parser-output .mp-contains-float::after {
+    content: "";
+    display: block;
+    clear: both
+  }
+
+  .mw-parser-output #mp-banner {
+    background-color: #fffaf5;
+    border-color: #f2e0ce
+  }
+
+  .mw-parser-output #mp-left {
+    background-color: #f5fffa;
+    border-color: #cef2e0
+  }
+
+  .mw-parser-output #mp-left .mp-h2 {
+    background-color: #cef2e0;
+    border-color: #a3bfb1
+  }
+
+  .mw-parser-output #mp-right {
+    background-color: #f5faff;
+    border-color: #cedff2
+  }
+
+  .mw-parser-output #mp-right .mp-h2 {
+    background-color: #cedff2;
+    border-color: #a3b0bf
+  }
+
+  .mw-parser-output #mp-middle {
+    background-color: #fff5fa;
+    border-color: #f2cedd
+  }
+
+  .mw-parser-output #mp-middle .mp-h2 {
+    background-color: #f2cedd;
+    border-color: #bfa3af
+  }
+
+  .mw-parser-output #mp-lower {
+    background-color: #faf5ff;
+    border-color: #ddcef2
+  }
+
+  .mw-parser-output #mp-lower .mp-h2 {
+    background-color: #ddcef2;
+    border-color: #afa3bf
+  }
+
+  .mw-parser-output #mp-bottom {
+    border-color: #e2e2e2
+  }
+
+  .mw-parser-output #mp-bottom .mp-h2 {
+    background-color: #eee;
+    border-color: #ddd
+  }
+
+  @media(max-width:875px) {
+
+    .mw-parser-output #mp-tfp table,
+    .mw-parser-output #mp-tfp tr,
+    .mw-parser-output #mp-tfp td,
+    .mw-parser-output #mp-tfp tbody {
+      display: block !important;
+      width: 100% !important;
+      box-sizing: border-box
+    }
+
+    .mw-parser-output #mp-tfp tr:first-child td:first-child a.mw-file-description {
+      text-align: center;
+      display: table;
+      margin: 0 auto
+    }
+  }
+
+  @media(min-width:875px) {
+    .mw-parser-output #mp-upper {
+      display: flex
+    }
+
+    .mw-parser-output #mp-left {
+      flex: 1 1 55%;
+      margin-right: 2px
+    }
+
+    .mw-parser-output #mp-right {
+      flex: 1 1 45%;
+      margin-left: 2px
+    }
+  }
+
+  html.skin-theme-clientpref-night .mw-parser-output #mp-topbanner {
+    background-color: #171a1d;
+    border-color: #676767
+  }
+
+  html.skin-theme-clientpref-night .mw-parser-output #mp-banner {
+    background-color: #431107;
+    border-color: #663428
+  }
+
+  html.skin-theme-clientpref-night .mw-parser-output #mp-left {
+    background-color: #0b1e1c;
+    border-color: #104437
+  }
+
+  html.skin-theme-clientpref-night .mw-parser-output #mp-left .mp-h2 {
+    background-color: #104437;
+    border-color: #2f4d41
+  }
+
+  html.skin-theme-clientpref-night .mw-parser-output #mp-right {
+    background-color: #0d1a27;
+    border-color: #082849
+  }
+
+  html.skin-theme-clientpref-night .mw-parser-output #mp-right .mp-h2 {
+    background-color: #082849;
+    border-color: #a3b0bf
+  }
+
+  html.skin-theme-clientpref-night .mw-parser-output #mp-middle {
+    background-color: #270e1a;
+    border-color: #882c43
+  }
+
+  html.skin-theme-clientpref-night .mw-parser-output #mp-middle .mp-h2 {
+    background-color: #882c43;
+    border-color: #926c80
+  }
+
+  html.skin-theme-clientpref-night .mw-parser-output #mp-lower {
+    background-color: #130e20;
+    border-color: #7545ab
+  }
+
+  html.skin-theme-clientpref-night .mw-parser-output #mp-lower .mp-h2 {
+    background-color: #7545ab;
+    border-color: #afa3bf
+  }
+
+  html.skin-theme-clientpref-night .mw-parser-output #mp-bottom {
+    border-color: #676767
+  }
+
+  html.skin-theme-clientpref-night .mw-parser-output #mp-bottom .mp-h2 {
+    background-color: #3d3d3d;
+    border-color: #676767
+  }
+
+  @media(prefers-color-scheme:dark) {
+    html.skin-theme-clientpref-os .mw-parser-output #mp-topbanner {
+      background-color: #171a1d;
+      border-color: #676767
+    }
+
+    html.skin-theme-clientpref-os .mw-parser-output #mp-banner {
+      background-color: #431107;
+      border-color: #663428
+    }
+
+    html.skin-theme-clientpref-os .mw-parser-output #mp-left {
+      background-color: #0b1e1c;
+      border-color: #104437
+    }
+
+    html.skin-theme-clientpref-os .mw-parser-output #mp-left .mp-h2 {
+      background-color: #104437;
+      border-color: #2f4d41
+    }
+
+    html.skin-theme-clientpref-os .mw-parser-output #mp-right {
+      background-color: #0d1a27;
+      border-color: #082849
+    }
+
+    html.skin-theme-clientpref-os .mw-parser-output #mp-right .mp-h2 {
+      background-color: #082849;
+      border-color: #a3b0bf
+    }
+
+    html.skin-theme-clientpref-os .mw-parser-output #mp-middle {
+      background-color: #270e1a;
+      border-color: #882c43
+    }
+
+    html.skin-theme-clientpref-os .mw-parser-output #mp-middle .mp-h2 {
+      background-color: #882c43;
+      border-color: #926c80
+    }
+
+    html.skin-theme-clientpref-os .mw-parser-output #mp-lower {
+      background-color: #130e20;
+      border-color: #7545ab
+    }
+
+    html.skin-theme-clientpref-os .mw-parser-output #mp-lower .mp-h2 {
+      background-color: #7545ab;
+      border-color: #afa3bf
+    }
+
+    html.skin-theme-clientpref-os .mw-parser-output #mp-bottom {
+      border-color: #676767
+    }
+
+    html.skin-theme-clientpref-os .mw-parser-output #mp-bottom .mp-h2 {
+      background-color: #3d3d3d;
+      border-color: #676767
+    }
+  }
+</style>
 <div id="mp-topbanner" class="mp-box">
-<div id="mp-welcomecount">
-<div id="mp-welcome"><h1><span class="mw-headline" id="Welcome_to_Wikipedia">Welcome to <a href="/wiki/Wikipedia" title="Wikipedia">Wikipedia</a></span></h1>,</div>
-<div id="mp-free">the <a href="/wiki/Free_content" title="Free content">free</a> <a href="/wiki/Encyclopedia" title="Encyclopedia">encyclopedia</a> that <a href="/wiki/Help:Introduction_to_Wikipedia" title="Help:Introduction to Wikipedia">anyone can edit</a>.</div>
-<div id="articlecount"><a href="/wiki/Special:Statistics" title="Special:Statistics">6,842,558</a> articles in <a href="/wiki/English_language" title="English language">English</a></div>
-</div>
+  <div id="mp-welcomecount">
+    <div id="mp-welcome">
+      <h1><span class="mw-headline" id="Welcome_to_Wikipedia">Welcome to <a href="/wiki/Wikipedia"
+            title="Wikipedia">Wikipedia</a></span></h1>,
+    </div>
+    <div id="mp-free">the <a href="/wiki/Free_content" title="Free content">free</a> <a href="/wiki/Encyclopedia"
+        title="Encyclopedia">encyclopedia</a> that <a href="/wiki/Help:Introduction_to_Wikipedia"
+        title="Help:Introduction to Wikipedia">anyone can edit</a>.</div>
+    <div id="articlecount"><a href="/wiki/Special:Statistics" title="Special:Statistics">6,842,558</a> articles in <a
+        href="/wiki/English_language" title="English language">English</a></div>
+  </div>
 </div>
 <div id="mp-upper">
-<div id="mp-left" class="MainPageBG mp-box">
-<h2 id="mp-tfa-h2" class="mp-h2"><span id="From_today.27s_featured_article"></span><span class="mw-headline" id="From_today&#39;s_featured_article">From today&#39;s featured article</span></h2>
-<div id="mp-tfa" class="mp-contains-float"><div id="mp-tfa-img" style="float: left; margin: 0.5em 0.9em 0.4em 0em;">
-<div class="thumbinner mp-thumb" style="background: transparent; color: inherit; border: none; padding: 0; max-width: 121px;">
-<span typeof="mw:File"><a href="/wiki/File:Mandy_Rice_Davies_op_Schiphol,_Bestanddeelnr_917-1860_(cropped_2).jpg" class="mw-file-description" title="Mandy Rice-Davies"><img alt="Mandy Rice-Davies" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Mandy_Rice_Davies_op_Schiphol%2C_Bestanddeelnr_917-1860_%28cropped_2%29.jpg/121px-Mandy_Rice_Davies_op_Schiphol%2C_Bestanddeelnr_917-1860_%28cropped_2%29.jpg" decoding="async" width="121" height="161" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Mandy_Rice_Davies_op_Schiphol%2C_Bestanddeelnr_917-1860_%28cropped_2%29.jpg/182px-Mandy_Rice_Davies_op_Schiphol%2C_Bestanddeelnr_917-1860_%28cropped_2%29.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/37/Mandy_Rice_Davies_op_Schiphol%2C_Bestanddeelnr_917-1860_%28cropped_2%29.jpg/242px-Mandy_Rice_Davies_op_Schiphol%2C_Bestanddeelnr_917-1860_%28cropped_2%29.jpg 2x" data-file-width="1080" data-file-height="1440"/></a></span><div class="thumbcaption" style="padding: 0.25em 0; word-wrap: break-word;">Mandy Rice-Davies</div></div>
-</div>
-<p>&#34;<b><a href="/wiki/Well_he_would,_wouldn%27t_he%3F" title="Well he would, wouldn&#39;t he?">Well he would, wouldn&#39;t he?</a></b>&#34; is an <a href="/wiki/Aphorism" title="Aphorism">aphorism</a> that is commonly used as a retort to a self-interested denial. It was said by the model <a href="/wiki/Mandy_Rice-Davies" title="Mandy Rice-Davies">Mandy Rice-Davies</a> <i>(pictured)</i> while giving evidence at the 1963 trial of <a href="/wiki/Stephen_Ward" title="Stephen Ward">Stephen Ward</a>, who had been accused of living off money paid to Rice-Davies and her friend <a href="/wiki/Christine_Keeler" title="Christine Keeler">Christine Keeler</a> for sex: part of the larger <a href="/wiki/Profumo_affair" title="Profumo affair">Profumo affair</a>. While being cross-examined Rice-Davies was told that <a href="/wiki/William_Astor,_3rd_Viscount_Astor" title="William Astor, 3rd Viscount Astor">Lord Astor</a>, who owned the <a href="/wiki/Cliveden" title="Cliveden">Cliveden</a> estate on which Ward rented a cottage, had denied an affair with her; she replied: &#34;Well he would, wouldn&#39;t he?&#34; Political, communications and psychological experts have interpreted it as a phrase which indicates the speaker believes a person is making a self-interested, obvious or irrelevant denial. They have also stated it functions as a retort to mistruths made by public figures. Linguistically, it has been noted for its use of the modal verb <i>would</i> to create rhetorical effect. The phrase has been included in <i><a href="/wiki/The_Oxford_Dictionary_of_Quotations" title="The Oxford Dictionary of Quotations">The Oxford Dictionary of Quotations</a></i> since 1979. (<b><a href="/wiki/Well_he_would,_wouldn%27t_he%3F" title="Well he would, wouldn&#39;t he?">Full article...</a></b>)
-</p>
-<div class="tfa-recent" style="text-align: right;">
-Recently featured: <style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><div class="hlist inline">
-<ul><li><a href="/wiki/Arnold_Bennett" title="Arnold Bennett">Arnold Bennett</a></li>
-<li><a href="/wiki/Torture" title="Torture">Torture</a></li>
-<li><a href="/wiki/Mckenna_Grace" title="Mckenna Grace">Mckenna Grace</a></li></ul>
-</div></div>
-<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><div class="hlist tfa-footer noprint" style="text-align:right;">
-<ul><li><b><a href="/wiki/Wikipedia:Today%27s_featured_article/June_2024" title="Wikipedia:Today&#39;s featured article/June 2024">Archive</a></b></li>
-<li><b><a href="https://lists.wikimedia.org/postorius/lists/daily-article-l.lists.wikimedia.org/" class="extiw" title="mail:daily-article-l">By email</a></b></li>
-<li><b><a href="/wiki/Wikipedia:Featured_articles" title="Wikipedia:Featured articles">More featured articles</a></b></li>
-<li><b><a href="/wiki/Wikipedia:About_Today%27s_featured_article" title="Wikipedia:About Today&#39;s featured article">About</a></b></li></ul>
-</div></div>
-<h2 id="mp-dyk-h2" class="mp-h2"><span class="mw-headline" id="Did_you_know_...">Did you know ...</span></h2>
-<div id="mp-dyk" class="mp-contains-float">
-<div class="dyk-img" style="float: right; margin-left: 0.5em;">
-<div class="thumbinner mp-thumb" style="background: transparent; color: inherit; border: none; padding: 0; max-width: 162px;">
-<span typeof="mw:File"><a href="/wiki/File:Stonewall_Inn_5_pride_weekend_2016.jpg" class="mw-file-description" title="Exterior of the Stonewall Inn"><img alt="Exterior of the Stonewall Inn" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Stonewall_Inn_5_pride_weekend_2016.jpg/162px-Stonewall_Inn_5_pride_weekend_2016.jpg" decoding="async" width="162" height="122" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Stonewall_Inn_5_pride_weekend_2016.jpg/243px-Stonewall_Inn_5_pride_weekend_2016.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Stonewall_Inn_5_pride_weekend_2016.jpg/324px-Stonewall_Inn_5_pride_weekend_2016.jpg 2x" data-file-width="4608" data-file-height="3456"/></a></span><div class="thumbcaption" style="padding: 0.25em 0; word-wrap: break-word;">Exterior of the Stonewall Inn</div></div>
-</div>
-<ul><li>... that after the original <b><a href="/wiki/Stonewall_Inn" title="Stonewall Inn">Stonewall Inn</a></b> <i>(modern building pictured)</i> closed in 1969, its space was used by a bagel shop, a Chinese restaurant, and a clothing store?</li>
-<li>... that baseball player <b><a href="/wiki/Shane_Rawley" title="Shane Rawley">Shane Rawley</a></b> has published a novel?</li>
-<li>... that <a href="/wiki/The_Cat_Empire" title="The Cat Empire">the Cat Empire</a>&#39;s 2023 album <i><b><a href="/wiki/Where_the_Angels_Fall" title="Where the Angels Fall">Where the Angels Fall</a></b></i> features contributions from 75 musicians and 49 instruments?</li>
-<li>... that <b><a href="/wiki/Sara_Houcke" title="Sara Houcke">Sara Houcke</a></b> began performing in circuses at the age of two as a child clown?</li>
-<li>... that <b><a href="/wiki/Fedorenko_v._United_States" title="Fedorenko v. United States">a man was denaturalized and deported from the United States</a></b> for working at a Nazi death camp, despite the courts never holding that he did it willingly?</li>
-<li>... that <b><a href="/wiki/Joy_(dog)" title="Joy (dog)">Joy</a></b> was the sole survivor of the <a href="/wiki/Murder_of_the_Romanov_family" title="Murder of the Romanov family">Romanov family&#39;s execution</a>?</li>
-<li>... that <b><a href="/wiki/WOOL_(FM)" title="WOOL (FM)">Black Sheep Radio</a></b> dedicated its first day of programming to a fallen pirate?</li>
-<li>... that <i><b><a href="/wiki/The_Penguin_History_of_Modern_China" title="The Penguin History of Modern China">The Penguin History of Modern China</a></b></i> profiled the <a href="/wiki/Feng_Yuxiang" title="Feng Yuxiang">Christian General</a>, whose army moved to the beat of &#34;<a href="/wiki/Hark!_The_Herald_Angels_Sing" title="Hark! The Herald Angels Sing">Hark! The Herald Angels Sing</a>&#34;?</li>
-<li>... that in the <i><b><a href="/wiki/Great_Alaskan_Lumberjack_Show" title="Great Alaskan Lumberjack Show">Great Alaskan Lumberjack Show</a></b></i>, the performers scale a 50-foot (15 m) tree and then <a href="/wiki/Free_fall" title="Free fall">free fall</a>?</li></ul>
-<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><div class="hlist dyk-footer noprint" style="margin-top: 0.5em; text-align: right;">
-<ul><li><b><a href="/wiki/Wikipedia:Recent_additions" title="Wikipedia:Recent additions">Archive</a></b></li>
-<li><b><a href="/wiki/Help:Your_first_article" title="Help:Your first article">Start a new article</a></b></li>
-<li><b><a href="/wiki/Template_talk:Did_you_know" title="Template talk:Did you know">Nominate an article</a></b></li></ul>
-</div>
-</div>
-</div>
-<div id="mp-right" class="MainPageBG mp-box">
-<h2 id="mp-itn-h2" class="mp-h2"><span class="mw-headline" id="In_the_news">In the news</span></h2>
-<div id="mp-itn" class="mp-contains-float"><style data-mw-deduplicate="TemplateStyles:r1053378754">.mw-parser-output .itn-img{float:right;margin-left:0.5em;margin-top:0.2em}</style><div role="figure" class="itn-img">
-<div class="thumbinner mp-thumb" style="background: transparent; color: inherit; border: none; padding: 0; max-width: 187px;">
-<span typeof="mw:File"><a href="/wiki/File:Intento_de_Golpe_de_Estado_Bolivia_2024.jpg" class="mw-file-description" title="Plaza Murillo surrounded by soldiers"><img alt="Plaza Murillo surrounded by soldiers" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/66/Intento_de_Golpe_de_Estado_Bolivia_2024.jpg/187px-Intento_de_Golpe_de_Estado_Bolivia_2024.jpg" decoding="async" width="187" height="105" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/66/Intento_de_Golpe_de_Estado_Bolivia_2024.jpg/281px-Intento_de_Golpe_de_Estado_Bolivia_2024.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/66/Intento_de_Golpe_de_Estado_Bolivia_2024.jpg/374px-Intento_de_Golpe_de_Estado_Bolivia_2024.jpg 2x" data-file-width="1599" data-file-height="899"/></a></span><div class="thumbcaption" style="padding: 0.25em 0; word-wrap: break-word; text-align: left;"><a href="/wiki/Plaza_Murillo" title="Plaza Murillo">Plaza Murillo</a> surrounded by soldiers</div></div>
-</div>
-<ul><li>In Bolivia, troops led by <a href="/wiki/Juan_Jos%C3%A9_Z%C3%BA%C3%B1iga" title="Juan José Zúñiga">Juan José Zúñiga</a> storm <a href="/wiki/Casa_Grande_del_Pueblo" title="Casa Grande del Pueblo">the presidential palace</a> in <b><a href="/wiki/2024_Bolivian_coup_attempt" title="2024 Bolivian coup attempt">an attempted coup</a></b> <i>(pictured)</i>.</li>
-<li><a href="/wiki/WikiLeaks" title="WikiLeaks">WikiLeaks</a> founder <b><a href="/wiki/Julian_Assange" title="Julian Assange">Julian Assange</a></b> is released from prison as part of a U.S. <a href="/wiki/Plea_bargain" title="Plea bargain">plea bargain</a>.</li>
-<li><a href="/wiki/Kenya_Finance_Bill_protests" title="Kenya Finance Bill protests">Protesters</a> <b><a href="/wiki/2024_Parliament_of_Kenya_assault" title="2024 Parliament of Kenya assault">attack the Parliament Buildings</a></b> in <a href="/wiki/Nairobi" title="Nairobi">Nairobi</a>, Kenya, leaving 19 people dead and at least 160 others injured.</li>
-<li><b><a href="/wiki/Aricell_battery_factory_fire" title="Aricell battery factory fire">A fire</a></b> at a lithium battery factory in the South Korean city of <a href="/wiki/Hwaseong,_Gyeonggi" title="Hwaseong, Gyeonggi">Hwaseong</a> leaves at least 23 people dead, many of them Chinese migrant workers.</li></ul>
-<div class="itn-footer" style="margin-top: 0.5em;">
-<div><b><a href="/wiki/Portal:Current_events" title="Portal:Current events">Ongoing</a></b>: <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><div class="hlist inline">
-<ul><li><a href="/wiki/Israel%E2%80%93Hamas_war" title="Israel–Hamas war">Israel–Hamas war</a>
-<ul><li><a href="/wiki/Timeline_of_the_Israel%E2%80%93Hamas_war_(7_May_2024_%E2%80%93_present)" title="Timeline of the Israel–Hamas war (7 May 2024 – present)">timeline</a></li></ul></li>
-<li><a href="/wiki/Russian_invasion_of_Ukraine" title="Russian invasion of Ukraine">Russian invasion of Ukraine</a>
-<ul><li><a href="/wiki/Timeline_of_the_Russian_invasion_of_Ukraine_(1_April_2024_%E2%80%93_present)" title="Timeline of the Russian invasion of Ukraine (1 April 2024 – present)">timeline</a></li></ul></li>
-<li><a href="/wiki/Sudanese_civil_war_(2023%E2%80%93present)" title="Sudanese civil war (2023–present)">Sudanese civil war</a>
-<ul><li><a href="/wiki/Timeline_of_the_Sudanese_civil_war_(2024)" title="Timeline of the Sudanese civil war (2024)">timeline</a></li></ul></li></ul></div></div>
-<div><b><a href="/wiki/Deaths_in_2024" title="Deaths in 2024">Recent deaths</a></b>: <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><div class="hlist inline">
-<ul><li><a href="/wiki/Romay_Davis" title="Romay Davis">Romay Davis</a></li>
-<li><a href="/wiki/Howard_Bernstein" title="Howard Bernstein">Howard Bernstein</a></li>
-<li><a href="/wiki/Joshua_Wade" title="Joshua Wade">Joshua Wade</a></li>
-<li><span class="nowrap"><a href="/wiki/George_M._Woodwell" title="George M. Woodwell">George M. Woodwell</a></span></li>
-<li><a href="/wiki/Dennis_Deer" title="Dennis Deer">Dennis Deer</a></li>
-<li><a href="/wiki/Russell_Morash" title="Russell Morash">Russell Morash</a></li></ul></div></div></div>
-<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><div class="hlist itn-footer noprint" style="text-align:right;">
-<ul><li><b><a href="/wiki/Wikipedia:In_the_news/Candidates" title="Wikipedia:In the news/Candidates">Nominate an article</a></b></li></ul>
-</div></div>
-<h2 id="mp-otd-h2" class="mp-h2"><span class="mw-headline" id="On_this_day">On this day</span></h2>
-<div id="mp-otd" class="mp-contains-float">
-<p><b><a href="/wiki/June_28" title="June 28">June 28</a></b>: <b><a href="/wiki/Vidovdan" title="Vidovdan">Vidovdan</a></b> in Serbia
-</p>
-<div style="float:right;margin-left:0.5em;" id="mp-otd-img">
-<div class="thumbinner mp-thumb" style="background: transparent; color: inherit; border: none; padding: 0; max-width: 128px;">
-<span typeof="mw:File"><a href="/wiki/File:Gavrilo_Princip,_prison,_infobox_crop.jpg" class="mw-file-description" title="Gavrilo Princip"><img alt="Gavrilo Princip" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Gavrilo_Princip%2C_prison%2C_infobox_crop.jpg/128px-Gavrilo_Princip%2C_prison%2C_infobox_crop.jpg" decoding="async" width="128" height="153" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Gavrilo_Princip%2C_prison%2C_infobox_crop.jpg/192px-Gavrilo_Princip%2C_prison%2C_infobox_crop.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Gavrilo_Princip%2C_prison%2C_infobox_crop.jpg/256px-Gavrilo_Princip%2C_prison%2C_infobox_crop.jpg 2x" data-file-width="1004" data-file-height="1201"/></a></span><div class="thumbcaption" style="padding: 0.25em 0; word-wrap: break-word;">Gavrilo Princip</div></div>
-</div>
-<ul><li><a href="/wiki/572" title="572">572</a> – <b><a href="/wiki/Alboin" title="Alboin">Alboin</a></b>, the king of the <a href="/wiki/Lombards" title="Lombards">Lombards</a>, was assassinated in <a href="/wiki/Verona" title="Verona">Verona</a> in a coup d&#39;état instigated by the <a href="/wiki/Byzantine_Empire" title="Byzantine Empire">Byzantines</a>.</li>
-<li><a href="/wiki/1914" title="1914">1914</a> – <a href="/wiki/Archduke_Franz_Ferdinand_of_Austria" title="Archduke Franz Ferdinand of Austria">Archduke Franz Ferdinand</a> and his wife <a href="/wiki/Sophie,_Duchess_of_Hohenberg" title="Sophie, Duchess of Hohenberg">Sophie, Duchess of Hohenberg</a>, <a href="/wiki/Assassination_of_Archduke_Franz_Ferdinand" title="Assassination of Archduke Franz Ferdinand">were assassinated</a> in <a href="/wiki/Sarajevo" title="Sarajevo">Sarajevo</a> by <b><a href="/wiki/Gavrilo_Princip" title="Gavrilo Princip">Gavrilo Princip</a></b> <i>(pictured)</i>, a <a href="/wiki/Yugoslavism" title="Yugoslavism">Yugoslav nationalist</a>, sparking the outbreak of <a href="/wiki/World_War_I" title="World War I">World War I</a>.</li>
-<li><a href="/wiki/1969" title="1969">1969</a> – In response to a police raid at the <a href="/wiki/Stonewall_Inn" title="Stonewall Inn">Stonewall Inn</a> in New York City, groups of <a href="/wiki/Gay" title="Gay">gay</a> and <a href="/wiki/Transgender" title="Transgender">transgender</a> people <b><a href="/wiki/Stonewall_riots" title="Stonewall riots">began demonstrations</a></b>, a watershed event for the worldwide <a href="/wiki/LGBT_movements" title="LGBT movements">gay rights movement</a>.</li>
-<li><a href="/wiki/1989" title="1989">1989</a> – President <a href="/wiki/Slobodan_Milo%C5%A1evi%C4%87" title="Slobodan Milošević">Slobodan Milošević</a> gave <b><a href="/wiki/Gazimestan_speech" title="Gazimestan speech">a speech</a></b> at <a href="/wiki/Gazimestan" title="Gazimestan">Gazimestan</a> in which he described the possibility of &#34;armed battles&#34; in the future of Serbia&#39;s national development.</li></ul>
-<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><div class="hlist" style="margin-top: 0.5em;"><ul><li><b><a href="/wiki/Paul_Broca" title="Paul Broca">Paul Broca</a></b>  (<abbr title="born">b.</abbr> 1824)</li><li><b><a href="/wiki/Don_Baylor" title="Don Baylor">Don Baylor</a></b> (<abbr title="born">b.</abbr> 1949)</li><li><b><a href="/wiki/Vannevar_Bush" title="Vannevar Bush">Vannevar Bush</a></b> (<abbr title="died">d.</abbr> 1974)</li><li><b><a href="/wiki/Hussein,_Crown_Prince_of_Jordan" title="Hussein, Crown Prince of Jordan">Hussein, Crown Prince of Jordan</a></b> (<abbr title="born">b.</abbr> 1994)</li></ul></div>
-<div style="margin-top:0.5em;">
-More anniversaries: <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><div class="hlist inline nowraplinks">
-<ul><li><a href="/wiki/June_27" title="June 27">June 27</a></li>
-<li><b><a href="/wiki/June_28" title="June 28">June 28</a></b></li>
-<li><a href="/wiki/June_29" title="June 29">June 29</a></li></ul>
-</div></div>
-<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><div class="hlist otd-footer noprint" style="text-align:right;">
-<ul><li><b><a href="/wiki/Wikipedia:Selected_anniversaries/June" title="Wikipedia:Selected anniversaries/June">Archive</a></b></li>
-<li><b><a href="https://lists.wikimedia.org/postorius/lists/daily-article-l.lists.wikimedia.org/" class="extiw" title="mail:daily-article-l">By email</a></b></li>
-<li><b><a href="/wiki/List_of_days_of_the_year" title="List of days of the year">List of days of the year</a></b></li></ul>
-</div></div>
-</div>
+  <div id="mp-left" class="MainPageBG mp-box">
+    <h2 id="mp-tfa-h2" class="mp-h2"><span id="From_today.27s_featured_article"></span><span class="mw-headline"
+        id="From_today&#39;s_featured_article">From today&#39;s featured article</span></h2>
+    <div id="mp-tfa" class="mp-contains-float">
+      <div id="mp-tfa-img" style="float: left; margin: 0.5em 0.9em 0.4em 0em;">
+        <div class="thumbinner mp-thumb"
+          style="background: transparent; color: inherit; border: none; padding: 0; max-width: 121px;">
+          <span typeof="mw:File"><a
+              href="/wiki/File:Mandy_Rice_Davies_op_Schiphol,_Bestanddeelnr_917-1860_(cropped_2).jpg"
+              class="mw-file-description" title="Mandy Rice-Davies"><img alt="Mandy Rice-Davies"
+                src="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Mandy_Rice_Davies_op_Schiphol%2C_Bestanddeelnr_917-1860_%28cropped_2%29.jpg/121px-Mandy_Rice_Davies_op_Schiphol%2C_Bestanddeelnr_917-1860_%28cropped_2%29.jpg"
+                decoding="async" width="121" height="161" class="mw-file-element"
+                srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Mandy_Rice_Davies_op_Schiphol%2C_Bestanddeelnr_917-1860_%28cropped_2%29.jpg/182px-Mandy_Rice_Davies_op_Schiphol%2C_Bestanddeelnr_917-1860_%28cropped_2%29.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/37/Mandy_Rice_Davies_op_Schiphol%2C_Bestanddeelnr_917-1860_%28cropped_2%29.jpg/242px-Mandy_Rice_Davies_op_Schiphol%2C_Bestanddeelnr_917-1860_%28cropped_2%29.jpg 2x"
+                data-file-width="1080" data-file-height="1440" /></a></span>
+          <div class="thumbcaption" style="padding: 0.25em 0; word-wrap: break-word;">Mandy Rice-Davies</div>
+        </div>
+      </div>
+      <p>&#34;<b><a href="/wiki/Well_he_would,_wouldn%27t_he%3F" title="Well he would, wouldn&#39;t he?">Well he would,
+            wouldn&#39;t he?</a></b>&#34; is an <a href="/wiki/Aphorism" title="Aphorism">aphorism</a> that is commonly
+        used as a retort to a self-interested denial. It was said by the model <a href="/wiki/Mandy_Rice-Davies"
+          title="Mandy Rice-Davies">Mandy Rice-Davies</a> <i>(pictured)</i> while giving evidence at the 1963 trial of
+        <a href="/wiki/Stephen_Ward" title="Stephen Ward">Stephen Ward</a>, who had been accused of living off money
+        paid to Rice-Davies and her friend <a href="/wiki/Christine_Keeler" title="Christine Keeler">Christine
+          Keeler</a> for sex: part of the larger <a href="/wiki/Profumo_affair" title="Profumo affair">Profumo
+          affair</a>. While being cross-examined Rice-Davies was told that <a
+          href="/wiki/William_Astor,_3rd_Viscount_Astor" title="William Astor, 3rd Viscount Astor">Lord Astor</a>, who
+        owned the <a href="/wiki/Cliveden" title="Cliveden">Cliveden</a> estate on which Ward rented a cottage, had
+        denied an affair with her; she replied: &#34;Well he would, wouldn&#39;t he?&#34; Political, communications and
+        psychological experts have interpreted it as a phrase which indicates the speaker believes a person is making a
+        self-interested, obvious or irrelevant denial. They have also stated it functions as a retort to mistruths made
+        by public figures. Linguistically, it has been noted for its use of the modal verb <i>would</i> to create
+        rhetorical effect. The phrase has been included in <i><a href="/wiki/The_Oxford_Dictionary_of_Quotations"
+            title="The Oxford Dictionary of Quotations">The Oxford Dictionary of Quotations</a></i> since 1979. (<b><a
+            href="/wiki/Well_he_would,_wouldn%27t_he%3F"
+            title="Well he would, wouldn&#39;t he?">Full article...</a></b>)
+      </p>
+      <div class="tfa-recent" style="text-align: right;">
+        Recently featured: <style data-mw-deduplicate="TemplateStyles:r1129693374">
+          .mw-parser-output .hlist dl,
+          .mw-parser-output .hlist ol,
+          .mw-parser-output .hlist ul {
+            margin: 0;
+            padding: 0
+          }
+
+          .mw-parser-output .hlist dd,
+          .mw-parser-output .hlist dt,
+          .mw-parser-output .hlist li {
+            margin: 0;
+            display: inline
+          }
+
+          .mw-parser-output .hlist.inline,
+          .mw-parser-output .hlist.inline dl,
+          .mw-parser-output .hlist.inline ol,
+          .mw-parser-output .hlist.inline ul,
+          .mw-parser-output .hlist dl dl,
+          .mw-parser-output .hlist dl ol,
+          .mw-parser-output .hlist dl ul,
+          .mw-parser-output .hlist ol dl,
+          .mw-parser-output .hlist ol ol,
+          .mw-parser-output .hlist ol ul,
+          .mw-parser-output .hlist ul dl,
+          .mw-parser-output .hlist ul ol,
+          .mw-parser-output .hlist ul ul {
+            display: inline
+          }
+
+          .mw-parser-output .hlist .mw-empty-li {
+            display: none
+          }
+
+          .mw-parser-output .hlist dt::after {
+            content: ": "
+          }
+
+          .mw-parser-output .hlist dd::after,
+          .mw-parser-output .hlist li::after {
+            content: " · ";
+            font-weight: bold
+          }
+
+          .mw-parser-output .hlist dd:last-child::after,
+          .mw-parser-output .hlist dt:last-child::after,
+          .mw-parser-output .hlist li:last-child::after {
+            content: none
+          }
+
+          .mw-parser-output .hlist dd dd:first-child::before,
+          .mw-parser-output .hlist dd dt:first-child::before,
+          .mw-parser-output .hlist dd li:first-child::before,
+          .mw-parser-output .hlist dt dd:first-child::before,
+          .mw-parser-output .hlist dt dt:first-child::before,
+          .mw-parser-output .hlist dt li:first-child::before,
+          .mw-parser-output .hlist li dd:first-child::before,
+          .mw-parser-output .hlist li dt:first-child::before,
+          .mw-parser-output .hlist li li:first-child::before {
+            content: " (";
+            font-weight: normal
+          }
+
+          .mw-parser-output .hlist dd dd:last-child::after,
+          .mw-parser-output .hlist dd dt:last-child::after,
+          .mw-parser-output .hlist dd li:last-child::after,
+          .mw-parser-output .hlist dt dd:last-child::after,
+          .mw-parser-output .hlist dt dt:last-child::after,
+          .mw-parser-output .hlist dt li:last-child::after,
+          .mw-parser-output .hlist li dd:last-child::after,
+          .mw-parser-output .hlist li dt:last-child::after,
+          .mw-parser-output .hlist li li:last-child::after {
+            content: ")";
+            font-weight: normal
+          }
+
+          .mw-parser-output .hlist ol {
+            counter-reset: listitem
+          }
+
+          .mw-parser-output .hlist ol>li {
+            counter-increment: listitem
+          }
+
+          .mw-parser-output .hlist ol>li::before {
+            content: " " counter(listitem)"\a0 "
+          }
+
+          .mw-parser-output .hlist dd ol>li:first-child::before,
+          .mw-parser-output .hlist dt ol>li:first-child::before,
+          .mw-parser-output .hlist li ol>li:first-child::before {
+            content: " (" counter(listitem)"\a0 "
+          }
+        </style>
+        <div class="hlist inline">
+          <ul>
+            <li><a href="/wiki/Arnold_Bennett" title="Arnold Bennett">Arnold Bennett</a></li>
+            <li><a href="/wiki/Torture" title="Torture">Torture</a></li>
+            <li><a href="/wiki/Mckenna_Grace" title="Mckenna Grace">Mckenna Grace</a></li>
+          </ul>
+        </div>
+      </div>
+      <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374" />
+      <div class="hlist tfa-footer noprint" style="text-align:right;">
+        <ul>
+          <li><b><a href="/wiki/Wikipedia:Today%27s_featured_article/June_2024"
+                title="Wikipedia:Today&#39;s featured article/June 2024">Archive</a></b></li>
+          <li><b><a href="https://lists.wikimedia.org/postorius/lists/daily-article-l.lists.wikimedia.org/"
+                class="extiw" title="mail:daily-article-l">By email</a></b></li>
+          <li><b><a href="/wiki/Wikipedia:Featured_articles" title="Wikipedia:Featured articles">More featured
+                articles</a></b></li>
+          <li><b><a href="/wiki/Wikipedia:About_Today%27s_featured_article"
+                title="Wikipedia:About Today&#39;s featured article">About</a></b></li>
+        </ul>
+      </div>
+    </div>
+    <h2 id="mp-dyk-h2" class="mp-h2"><span class="mw-headline" id="Did_you_know_...">Did you know ...</span></h2>
+    <div id="mp-dyk" class="mp-contains-float">
+      <div class="dyk-img" style="float: right; margin-left: 0.5em;">
+        <div class="thumbinner mp-thumb"
+          style="background: transparent; color: inherit; border: none; padding: 0; max-width: 162px;">
+          <span typeof="mw:File"><a href="/wiki/File:Stonewall_Inn_5_pride_weekend_2016.jpg" class="mw-file-description"
+              title="Exterior of the Stonewall Inn"><img alt="Exterior of the Stonewall Inn"
+                src="//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Stonewall_Inn_5_pride_weekend_2016.jpg/162px-Stonewall_Inn_5_pride_weekend_2016.jpg"
+                decoding="async" width="162" height="122" class="mw-file-element"
+                srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Stonewall_Inn_5_pride_weekend_2016.jpg/243px-Stonewall_Inn_5_pride_weekend_2016.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Stonewall_Inn_5_pride_weekend_2016.jpg/324px-Stonewall_Inn_5_pride_weekend_2016.jpg 2x"
+                data-file-width="4608" data-file-height="3456" /></a></span>
+          <div class="thumbcaption" style="padding: 0.25em 0; word-wrap: break-word;">Exterior of the Stonewall Inn
+          </div>
+        </div>
+      </div>
+      <ul>
+        <li>... that after the original <b><a href="/wiki/Stonewall_Inn" title="Stonewall Inn">Stonewall Inn</a></b>
+          <i>(modern building pictured)</i> closed in 1969, its space was used by a bagel shop, a Chinese restaurant,
+          and a clothing store?</li>
+        <li>... that baseball player <b><a href="/wiki/Shane_Rawley" title="Shane Rawley">Shane Rawley</a></b> has
+          published a novel?</li>
+        <li>... that <a href="/wiki/The_Cat_Empire" title="The Cat Empire">the Cat Empire</a>&#39;s 2023 album <i><b><a
+                href="/wiki/Where_the_Angels_Fall" title="Where the Angels Fall">Where the Angels Fall</a></b></i>
+          features contributions from 75 musicians and 49 instruments?</li>
+        <li>... that <b><a href="/wiki/Sara_Houcke" title="Sara Houcke">Sara Houcke</a></b> began performing in circuses
+          at the age of two as a child clown?</li>
+        <li>... that <b><a href="/wiki/Fedorenko_v._United_States" title="Fedorenko v. United States">a man was
+              denaturalized and deported from the United States</a></b> for working at a Nazi death camp, despite the
+          courts never holding that he did it willingly?</li>
+        <li>... that <b><a href="/wiki/Joy_(dog)" title="Joy (dog)">Joy</a></b> was the sole survivor of the <a
+            href="/wiki/Murder_of_the_Romanov_family" title="Murder of the Romanov family">Romanov family&#39;s
+            execution</a>?</li>
+        <li>... that <b><a href="/wiki/WOOL_(FM)" title="WOOL (FM)">Black Sheep Radio</a></b> dedicated its first day of
+          programming to a fallen pirate?</li>
+        <li>... that <i><b><a href="/wiki/The_Penguin_History_of_Modern_China"
+                title="The Penguin History of Modern China">The Penguin History of Modern China</a></b></i> profiled the
+          <a href="/wiki/Feng_Yuxiang" title="Feng Yuxiang">Christian General</a>, whose army moved to the beat of
+          &#34;<a href="/wiki/Hark!_The_Herald_Angels_Sing" title="Hark! The Herald Angels Sing">Hark! The Herald Angels
+            Sing</a>&#34;?</li>
+        <li>... that in the <i><b><a href="/wiki/Great_Alaskan_Lumberjack_Show"
+                title="Great Alaskan Lumberjack Show">Great Alaskan Lumberjack Show</a></b></i>, the performers scale a
+          50-foot (15 m) tree and then <a href="/wiki/Free_fall" title="Free fall">free fall</a>?</li>
+      </ul>
+      <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374" />
+      <div class="hlist dyk-footer noprint" style="margin-top: 0.5em; text-align: right;">
+        <ul>
+          <li><b><a href="/wiki/Wikipedia:Recent_additions" title="Wikipedia:Recent additions">Archive</a></b></li>
+          <li><b><a href="/wiki/Help:Your_first_article" title="Help:Your first article">Start a new article</a></b>
+          </li>
+          <li><b><a href="/wiki/Template_talk:Did_you_know" title="Template talk:Did you know">Nominate an
+                article</a></b></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div id="mp-right" class="MainPageBG mp-box">
+    <h2 id="mp-itn-h2" class="mp-h2"><span class="mw-headline" id="In_the_news">In the news</span></h2>
+    <div id="mp-itn" class="mp-contains-float">
+      <style data-mw-deduplicate="TemplateStyles:r1053378754">
+        .mw-parser-output .itn-img {
+          float: right;
+          margin-left: 0.5em;
+          margin-top: 0.2em
+        }
+      </style>
+      <div role="figure" class="itn-img">
+        <div class="thumbinner mp-thumb"
+          style="background: transparent; color: inherit; border: none; padding: 0; max-width: 187px;">
+          <span typeof="mw:File"><a href="/wiki/File:Intento_de_Golpe_de_Estado_Bolivia_2024.jpg"
+              class="mw-file-description" title="Plaza Murillo surrounded by soldiers"><img
+                alt="Plaza Murillo surrounded by soldiers"
+                src="//upload.wikimedia.org/wikipedia/commons/thumb/6/66/Intento_de_Golpe_de_Estado_Bolivia_2024.jpg/187px-Intento_de_Golpe_de_Estado_Bolivia_2024.jpg"
+                decoding="async" width="187" height="105" class="mw-file-element"
+                srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/66/Intento_de_Golpe_de_Estado_Bolivia_2024.jpg/281px-Intento_de_Golpe_de_Estado_Bolivia_2024.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/66/Intento_de_Golpe_de_Estado_Bolivia_2024.jpg/374px-Intento_de_Golpe_de_Estado_Bolivia_2024.jpg 2x"
+                data-file-width="1599" data-file-height="899" /></a></span>
+          <div class="thumbcaption" style="padding: 0.25em 0; word-wrap: break-word; text-align: left;"><a
+              href="/wiki/Plaza_Murillo" title="Plaza Murillo">Plaza Murillo</a> surrounded by soldiers</div>
+        </div>
+      </div>
+      <ul>
+        <li>In Bolivia, troops led by <a href="/wiki/Juan_Jos%C3%A9_Z%C3%BA%C3%B1iga" title="Juan José Zúñiga">Juan José
+            Zúñiga</a> storm <a href="/wiki/Casa_Grande_del_Pueblo" title="Casa Grande del Pueblo">the presidential
+            palace</a> in <b><a href="/wiki/2024_Bolivian_coup_attempt" title="2024 Bolivian coup attempt">an attempted
+              coup</a></b> <i>(pictured)</i>.</li>
+        <li><a href="/wiki/WikiLeaks" title="WikiLeaks">WikiLeaks</a> founder <b><a href="/wiki/Julian_Assange"
+              title="Julian Assange">Julian Assange</a></b> is released from prison as part of a U.S. <a
+            href="/wiki/Plea_bargain" title="Plea bargain">plea bargain</a>.</li>
+        <li><a href="/wiki/Kenya_Finance_Bill_protests" title="Kenya Finance Bill protests">Protesters</a> <b><a
+              href="/wiki/2024_Parliament_of_Kenya_assault" title="2024 Parliament of Kenya assault">attack the
+              Parliament Buildings</a></b> in <a href="/wiki/Nairobi" title="Nairobi">Nairobi</a>, Kenya, leaving 19
+          people dead and at least 160 others injured.</li>
+        <li><b><a href="/wiki/Aricell_battery_factory_fire" title="Aricell battery factory fire">A fire</a></b> at a
+          lithium battery factory in the South Korean city of <a href="/wiki/Hwaseong,_Gyeonggi"
+            title="Hwaseong, Gyeonggi">Hwaseong</a> leaves at least 23 people dead, many of them Chinese migrant
+          workers.</li>
+      </ul>
+      <div class="itn-footer" style="margin-top: 0.5em;">
+        <div><b><a href="/wiki/Portal:Current_events" title="Portal:Current events">Ongoing</a></b>:
+          <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374" />
+          <div class="hlist inline">
+            <ul>
+              <li><a href="/wiki/Israel%E2%80%93Hamas_war" title="Israel–Hamas war">Israel–Hamas war</a>
+                <ul>
+                  <li><a href="/wiki/Timeline_of_the_Israel%E2%80%93Hamas_war_(7_May_2024_%E2%80%93_present)"
+                      title="Timeline of the Israel–Hamas war (7 May 2024 – present)">timeline</a></li>
+                </ul>
+              </li>
+              <li><a href="/wiki/Russian_invasion_of_Ukraine" title="Russian invasion of Ukraine">Russian invasion of
+                  Ukraine</a>
+                <ul>
+                  <li><a href="/wiki/Timeline_of_the_Russian_invasion_of_Ukraine_(1_April_2024_%E2%80%93_present)"
+                      title="Timeline of the Russian invasion of Ukraine (1 April 2024 – present)">timeline</a></li>
+                </ul>
+              </li>
+              <li><a href="/wiki/Sudanese_civil_war_(2023%E2%80%93present)"
+                  title="Sudanese civil war (2023–present)">Sudanese civil war</a>
+                <ul>
+                  <li><a href="/wiki/Timeline_of_the_Sudanese_civil_war_(2024)"
+                      title="Timeline of the Sudanese civil war (2024)">timeline</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div><b><a href="/wiki/Deaths_in_2024" title="Deaths in 2024">Recent deaths</a></b>:
+          <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374" />
+          <div class="hlist inline">
+            <ul>
+              <li><a href="/wiki/Romay_Davis" title="Romay Davis">Romay Davis</a></li>
+              <li><a href="/wiki/Howard_Bernstein" title="Howard Bernstein">Howard Bernstein</a></li>
+              <li><a href="/wiki/Joshua_Wade" title="Joshua Wade">Joshua Wade</a></li>
+              <li><span class="nowrap"><a href="/wiki/George_M._Woodwell" title="George M. Woodwell">George M.
+                    Woodwell</a></span></li>
+              <li><a href="/wiki/Dennis_Deer" title="Dennis Deer">Dennis Deer</a></li>
+              <li><a href="/wiki/Russell_Morash" title="Russell Morash">Russell Morash</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374" />
+      <div class="hlist itn-footer noprint" style="text-align:right;">
+        <ul>
+          <li><b><a href="/wiki/Wikipedia:In_the_news/Candidates" title="Wikipedia:In the news/Candidates">Nominate an
+                article</a></b></li>
+        </ul>
+      </div>
+    </div>
+    <h2 id="mp-otd-h2" class="mp-h2"><span class="mw-headline" id="On_this_day">On this day</span></h2>
+    <div id="mp-otd" class="mp-contains-float">
+      <p><b><a href="/wiki/June_28" title="June 28">June 28</a></b>: <b><a href="/wiki/Vidovdan"
+            title="Vidovdan">Vidovdan</a></b> in Serbia
+      </p>
+      <div style="float:right;margin-left:0.5em;" id="mp-otd-img">
+        <div class="thumbinner mp-thumb"
+          style="background: transparent; color: inherit; border: none; padding: 0; max-width: 128px;">
+          <span typeof="mw:File"><a href="/wiki/File:Gavrilo_Princip,_prison,_infobox_crop.jpg"
+              class="mw-file-description" title="Gavrilo Princip"><img alt="Gavrilo Princip"
+                src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Gavrilo_Princip%2C_prison%2C_infobox_crop.jpg/128px-Gavrilo_Princip%2C_prison%2C_infobox_crop.jpg"
+                decoding="async" width="128" height="153" class="mw-file-element"
+                srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Gavrilo_Princip%2C_prison%2C_infobox_crop.jpg/192px-Gavrilo_Princip%2C_prison%2C_infobox_crop.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Gavrilo_Princip%2C_prison%2C_infobox_crop.jpg/256px-Gavrilo_Princip%2C_prison%2C_infobox_crop.jpg 2x"
+                data-file-width="1004" data-file-height="1201" /></a></span>
+          <div class="thumbcaption" style="padding: 0.25em 0; word-wrap: break-word;">Gavrilo Princip</div>
+        </div>
+      </div>
+      <ul>
+        <li><a href="/wiki/572" title="572">572</a> – <b><a href="/wiki/Alboin" title="Alboin">Alboin</a></b>, the king
+          of the <a href="/wiki/Lombards" title="Lombards">Lombards</a>, was assassinated in <a href="/wiki/Verona"
+            title="Verona">Verona</a> in a coup d&#39;état instigated by the <a href="/wiki/Byzantine_Empire"
+            title="Byzantine Empire">Byzantines</a>.</li>
+        <li><a href="/wiki/1914" title="1914">1914</a> – <a href="/wiki/Archduke_Franz_Ferdinand_of_Austria"
+            title="Archduke Franz Ferdinand of Austria">Archduke Franz Ferdinand</a> and his wife <a
+            href="/wiki/Sophie,_Duchess_of_Hohenberg" title="Sophie, Duchess of Hohenberg">Sophie, Duchess of
+            Hohenberg</a>, <a href="/wiki/Assassination_of_Archduke_Franz_Ferdinand"
+            title="Assassination of Archduke Franz Ferdinand">were assassinated</a> in <a href="/wiki/Sarajevo"
+            title="Sarajevo">Sarajevo</a> by <b><a href="/wiki/Gavrilo_Princip" title="Gavrilo Princip">Gavrilo
+              Princip</a></b> <i>(pictured)</i>, a <a href="/wiki/Yugoslavism" title="Yugoslavism">Yugoslav
+            nationalist</a>, sparking the outbreak of <a href="/wiki/World_War_I" title="World War I">World War I</a>.
+        </li>
+        <li><a href="/wiki/1969" title="1969">1969</a> – In response to a police raid at the <a
+            href="/wiki/Stonewall_Inn" title="Stonewall Inn">Stonewall Inn</a> in New York City, groups of <a
+            href="/wiki/Gay" title="Gay">gay</a> and <a href="/wiki/Transgender" title="Transgender">transgender</a>
+          people <b><a href="/wiki/Stonewall_riots" title="Stonewall riots">began demonstrations</a></b>, a watershed
+          event for the worldwide <a href="/wiki/LGBT_movements" title="LGBT movements">gay rights movement</a>.</li>
+        <li><a href="/wiki/1989" title="1989">1989</a> – President <a href="/wiki/Slobodan_Milo%C5%A1evi%C4%87"
+            title="Slobodan Milošević">Slobodan Milošević</a> gave <b><a href="/wiki/Gazimestan_speech"
+              title="Gazimestan speech">a speech</a></b> at <a href="/wiki/Gazimestan" title="Gazimestan">Gazimestan</a>
+          in which he described the possibility of &#34;armed battles&#34; in the future of Serbia&#39;s national
+          development.</li>
+      </ul>
+      <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374" />
+      <div class="hlist" style="margin-top: 0.5em;">
+        <ul>
+          <li><b><a href="/wiki/Paul_Broca" title="Paul Broca">Paul Broca</a></b> (<abbr title="born">b.</abbr> 1824)
+          </li>
+          <li><b><a href="/wiki/Don_Baylor" title="Don Baylor">Don Baylor</a></b> (<abbr title="born">b.</abbr> 1949)
+          </li>
+          <li><b><a href="/wiki/Vannevar_Bush" title="Vannevar Bush">Vannevar Bush</a></b> (<abbr
+              title="died">d.</abbr> 1974)</li>
+          <li><b><a href="/wiki/Hussein,_Crown_Prince_of_Jordan" title="Hussein, Crown Prince of Jordan">Hussein, Crown
+                Prince of Jordan</a></b> (<abbr title="born">b.</abbr> 1994)</li>
+        </ul>
+      </div>
+      <div style="margin-top:0.5em;">
+        More anniversaries:
+        <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374" />
+        <div class="hlist inline nowraplinks">
+          <ul>
+            <li><a href="/wiki/June_27" title="June 27">June 27</a></li>
+            <li><b><a href="/wiki/June_28" title="June 28">June 28</a></b></li>
+            <li><a href="/wiki/June_29" title="June 29">June 29</a></li>
+          </ul>
+        </div>
+      </div>
+      <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374" />
+      <div class="hlist otd-footer noprint" style="text-align:right;">
+        <ul>
+          <li><b><a href="/wiki/Wikipedia:Selected_anniversaries/June"
+                title="Wikipedia:Selected anniversaries/June">Archive</a></b></li>
+          <li><b><a href="https://lists.wikimedia.org/postorius/lists/daily-article-l.lists.wikimedia.org/"
+                class="extiw" title="mail:daily-article-l">By email</a></b></li>
+          <li><b><a href="/wiki/List_of_days_of_the_year" title="List of days of the year">List of days of the
+                year</a></b></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </div>
 <div id="mp-middle" class="MainPageBG mp-box">
-<h2 id="mp-tfl-h2" class="mp-h2"><span id="From_today.27s_featured_list"></span><span class="mw-headline" id="From_today&#39;s_featured_list">From today&#39;s featured list</span></h2>
-<div id="mp-tfl" class="mp-contains-float"><div id="mp-tfl-img" style="float:right;margin:0.5em 0 0.4em 0.9em;"><div class="thumbinner mp-thumb" style="background: transparent; color: inherit; border: none; padding: 0; max-width: 110px;">
-<span typeof="mw:File"><a href="/wiki/File:Anthony_Davis_Hornets.jpg" class="mw-file-description" title="Anthony Davis"><img alt="Anthony Davis" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Anthony_Davis_Hornets.jpg/110px-Anthony_Davis_Hornets.jpg" decoding="async" width="110" height="179" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Anthony_Davis_Hornets.jpg/165px-Anthony_Davis_Hornets.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Anthony_Davis_Hornets.jpg/220px-Anthony_Davis_Hornets.jpg 2x" data-file-width="1966" data-file-height="3198"/></a></span><div class="thumbcaption" style="padding: 0.25em 0; word-wrap: break-word;">Anthony Davis</div></div>
-</div>
-<p>The <b><a href="/wiki/2012_NBA_draft" title="2012 NBA draft">2012 NBA draft</a></b> was held on June 28, 2012, at <a href="/wiki/Prudential_Center" title="Prudential Center">Prudential Center</a> in <a href="/wiki/Newark,_New_Jersey" title="Newark, New Jersey">Newark, New Jersey</a>, and broadcast in the United States on <a href="/wiki/ESPN" title="ESPN">ESPN</a>. The <a href="/wiki/New_Orleans_Pelicans" title="New Orleans Pelicans">New Orleans Hornets</a> won the <a href="/wiki/National_Basketball_Association" title="National Basketball Association">National Basketball Association</a> (NBA) <a href="/wiki/NBA_draft_lottery" title="NBA draft lottery">draft lottery</a> on May 30. For the first time in draft history, the first two players selected were from the same school: <a href="/wiki/Anthony_Davis" title="Anthony Davis">Anthony Davis</a> <i>(pictured)</i> and <a href="/wiki/Michael_Kidd-Gilchrist" title="Michael Kidd-Gilchrist">Michael Kidd-Gilchrist</a> were teammates at <a href="/wiki/Kentucky_Wildcats_men%27s_basketball" title="Kentucky Wildcats men&#39;s basketball">Kentucky</a>. The 2012 draft also set a record of six players being selected from one school (Kentucky), and was the first draft in which the first three selections were all college freshmen from the same conference (the <a href="/wiki/Southeastern_Conference" title="Southeastern Conference">Southeastern Conference</a>). <a href="/wiki/Bernard_James" title="Bernard James">Bernard James</a> was the oldest player ever drafted, being 27 years old at the time of the draft. Four of the players selected never played in an NBA game. The 2012 draft class went on to have six players who participated in an <a href="/wiki/NBA_All-Star_Game" title="NBA All-Star Game">All-Star Game</a>, seven players who combined for ten championships, as well as having Anthony Davis and <a href="/wiki/Damian_Lillard" title="Damian Lillard">Damian Lillard</a> both named to the <a href="/wiki/NBA_75th_Anniversary_Team" title="NBA 75th Anniversary Team">NBA 75th Anniversary Team</a> in 2021. (<b><a href="/wiki/2012_NBA_draft" title="2012 NBA draft">Full list...</a></b>)
-</p>
-<div class="tfl-recent" style="text-align: right;">
-Recently featured: <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><div class="hlist inline">
-<ul><li><a href="/wiki/List_of_awards_and_nominations_received_by_Line_of_Duty" title="List of awards and nominations received by Line of Duty">Awards and nominations received by <i>Line of Duty</i></a></li>
-<li><a href="/wiki/List_of_Cobra_Kai_episodes" title="List of Cobra Kai episodes"><i>Cobra Kai</i> episodes</a></li>
-<li><a href="/wiki/List_of_accolades_received_by_Toy_Story_3" title="List of accolades received by Toy Story 3">Accolades received by <i>Toy Story 3</i></a></li></ul>
-</div></div>
-<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><div class="hlist tfl-footer noprint" style="text-align:right;">
-<ul><li><b><a href="/wiki/Wikipedia:Today%27s_featured_list/June_2024" title="Wikipedia:Today&#39;s featured list/June 2024">Archive</a></b></li>
-<li><b><a href="/wiki/Wikipedia:Featured_lists" title="Wikipedia:Featured lists">More featured lists</a></b></li></ul>
-</div></div>
+  <h2 id="mp-tfl-h2" class="mp-h2"><span id="From_today.27s_featured_list"></span><span class="mw-headline"
+      id="From_today&#39;s_featured_list">From today&#39;s featured list</span></h2>
+  <div id="mp-tfl" class="mp-contains-float">
+    <div id="mp-tfl-img" style="float:right;margin:0.5em 0 0.4em 0.9em;">
+      <div class="thumbinner mp-thumb"
+        style="background: transparent; color: inherit; border: none; padding: 0; max-width: 110px;">
+        <span typeof="mw:File"><a href="/wiki/File:Anthony_Davis_Hornets.jpg" class="mw-file-description"
+            title="Anthony Davis"><img alt="Anthony Davis"
+              src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Anthony_Davis_Hornets.jpg/110px-Anthony_Davis_Hornets.jpg"
+              decoding="async" width="110" height="179" class="mw-file-element"
+              srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Anthony_Davis_Hornets.jpg/165px-Anthony_Davis_Hornets.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Anthony_Davis_Hornets.jpg/220px-Anthony_Davis_Hornets.jpg 2x"
+              data-file-width="1966" data-file-height="3198" /></a></span>
+        <div class="thumbcaption" style="padding: 0.25em 0; word-wrap: break-word;">Anthony Davis</div>
+      </div>
+    </div>
+    <p>The <b><a href="/wiki/2012_NBA_draft" title="2012 NBA draft">2012 NBA draft</a></b> was held on June 28, 2012, at
+      <a href="/wiki/Prudential_Center" title="Prudential Center">Prudential Center</a> in <a
+        href="/wiki/Newark,_New_Jersey" title="Newark, New Jersey">Newark, New Jersey</a>, and broadcast in the United
+      States on <a href="/wiki/ESPN" title="ESPN">ESPN</a>. The <a href="/wiki/New_Orleans_Pelicans"
+        title="New Orleans Pelicans">New Orleans Hornets</a> won the <a href="/wiki/National_Basketball_Association"
+        title="National Basketball Association">National Basketball Association</a> (NBA) <a
+        href="/wiki/NBA_draft_lottery" title="NBA draft lottery">draft lottery</a> on May 30. For the first time in
+      draft history, the first two players selected were from the same school: <a href="/wiki/Anthony_Davis"
+        title="Anthony Davis">Anthony Davis</a> <i>(pictured)</i> and <a href="/wiki/Michael_Kidd-Gilchrist"
+        title="Michael Kidd-Gilchrist">Michael Kidd-Gilchrist</a> were teammates at <a
+        href="/wiki/Kentucky_Wildcats_men%27s_basketball" title="Kentucky Wildcats men&#39;s basketball">Kentucky</a>.
+      The 2012 draft also set a record of six players being selected from one school (Kentucky), and was the first draft
+      in which the first three selections were all college freshmen from the same conference (the <a
+        href="/wiki/Southeastern_Conference" title="Southeastern Conference">Southeastern Conference</a>). <a
+        href="/wiki/Bernard_James" title="Bernard James">Bernard James</a> was the oldest player ever drafted, being 27
+      years old at the time of the draft. Four of the players selected never played in an NBA game. The 2012 draft class
+      went on to have six players who participated in an <a href="/wiki/NBA_All-Star_Game"
+        title="NBA All-Star Game">All-Star Game</a>, seven players who combined for ten championships, as well as having
+      Anthony Davis and <a href="/wiki/Damian_Lillard" title="Damian Lillard">Damian Lillard</a> both named to the <a
+        href="/wiki/NBA_75th_Anniversary_Team" title="NBA 75th Anniversary Team">NBA 75th Anniversary Team</a> in 2021.
+      (<b><a href="/wiki/2012_NBA_draft" title="2012 NBA draft">Full list...</a></b>)
+    </p>
+    <div class="tfl-recent" style="text-align: right;">
+      Recently featured:
+      <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374" />
+      <div class="hlist inline">
+        <ul>
+          <li><a href="/wiki/List_of_awards_and_nominations_received_by_Line_of_Duty"
+              title="List of awards and nominations received by Line of Duty">Awards and nominations received by <i>Line
+                of Duty</i></a></li>
+          <li><a href="/wiki/List_of_Cobra_Kai_episodes" title="List of Cobra Kai episodes"><i>Cobra Kai</i>
+              episodes</a></li>
+          <li><a href="/wiki/List_of_accolades_received_by_Toy_Story_3"
+              title="List of accolades received by Toy Story 3">Accolades received by <i>Toy Story 3</i></a></li>
+        </ul>
+      </div>
+    </div>
+    <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374" />
+    <div class="hlist tfl-footer noprint" style="text-align:right;">
+      <ul>
+        <li><b><a href="/wiki/Wikipedia:Today%27s_featured_list/June_2024"
+              title="Wikipedia:Today&#39;s featured list/June 2024">Archive</a></b></li>
+        <li><b><a href="/wiki/Wikipedia:Featured_lists" title="Wikipedia:Featured lists">More featured lists</a></b>
+        </li>
+      </ul>
+    </div>
+  </div>
 </div>
 <div id="mp-lower" class="MainPageBG mp-box">
-<h2 id="mp-tfp-h2" class="mp-h2"><span id="Today.27s_featured_picture"></span><span class="mw-headline" id="Today&#39;s_featured_picture">Today&#39;s featured picture</span></h2>
-<div id="mp-tfp">
-<table role="presentation" style="margin:0 3px 3px; width:100%; box-sizing:border-box; text-align:center; border-collapse:collapse; padding:0.9em">
-<tbody><tr>
-<td><span typeof="mw:File"><a href="/wiki/File:Color_SEM_4.jpg" class="mw-file-description" title="Fumarole mineral"><img alt="Fumarole mineral" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Color_SEM_4.jpg/500px-Color_SEM_4.jpg" decoding="async" width="500" height="355" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Color_SEM_4.jpg/750px-Color_SEM_4.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Color_SEM_4.jpg/1000px-Color_SEM_4.jpg 2x" data-file-width="2359" data-file-height="1673"/></a></span>
-</td></tr>
-<tr>
-<td style="padding:0 0.9em; text-align:left;">
-<p><b><a href="/wiki/Fumarole_mineral" title="Fumarole mineral">Fumarole minerals</a></b> are minerals that are deposited by <a href="/wiki/Fumarole" title="Fumarole">fumarole</a> exhalations. They form when gases and compounds desublimate or precipitate out of condensates, forming mineral deposits. They are mostly associated with volcanoes (as volcanic sublimate or fumarolic sublimate), following <a href="/wiki/Deposition_(phase_transition)" title="Deposition (phase transition)">deposition</a> from volcanic gas during an eruption or discharge from a volcanic vent or fumarole, but have been encountered on <a href="/wiki/Coal-seam_fire" title="Coal-seam fire">burning coal deposits</a> as well. They can be black or multicoloured and are often unstable upon exposure to the atmosphere. This natural-colour <a href="/wiki/Micrograph" title="Micrograph">photomicrograph</a> of fumarole minerals from <a href="/wiki/Mutnovsky" title="Mutnovsky">Mutnovsky</a>, a volcano on the <a href="/wiki/Kamchatka_Peninsula" title="Kamchatka Peninsula">Kamchatka Peninsula</a> in Russia, was taken using a <a href="/wiki/Scanning_electron_microscope" title="Scanning electron microscope">scanning electron microscope</a> and colour-enhanced by optical microscopy. Yellow and red crystals of <a href="/wiki/Thallium(I)_iodide" title="Thallium(I) iodide">thallium(I) iodide</a> are visible, with a gradual transition between the two <a href="/wiki/Crystal_polymorphism" title="Crystal polymorphism">polymorphs</a>. The crystals are located on a substrate of altered rock. This image is 700 micrometres (0.028 in) across on the long side.
-</p>
-<p style="text-align:center;"><small>Photograph credit: Mikhail Zelensky</small></p>
-<div class="potd-recent" style="text-align:right;">
-Recently featured: <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><div class="hlist inline">
-<ul><li><a href="/wiki/Template:POTD/2024-06-27" title="Template:POTD/2024-06-27"><i>Sabella spallanzanii</i></a></li>
-<li><a href="/wiki/Template:POTD/2024-06-26" title="Template:POTD/2024-06-26">Lord Kelvin</a></li>
-<li><a href="/wiki/Template:POTD/2024-06-25" title="Template:POTD/2024-06-25">The Great Train Robbery</a></li></ul>
-</div></div>
-<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><div class="hlist potd-footer noprint" style="text-align:right;">
-<ul><li><b><a href="/wiki/Wikipedia:Picture_of_the_day/Archive" title="Wikipedia:Picture of the day/Archive">Archive</a></b></li>
-<li><b><a href="/wiki/Wikipedia:Featured_pictures" title="Wikipedia:Featured pictures">More featured pictures</a></b></li></ul>
-</div>
-</td></tr></tbody></table></div>
+  <h2 id="mp-tfp-h2" class="mp-h2"><span id="Today.27s_featured_picture"></span><span class="mw-headline"
+      id="Today&#39;s_featured_picture">Today&#39;s featured picture</span></h2>
+  <div id="mp-tfp">
+    <table role="presentation"
+      style="margin:0 3px 3px; width:100%; box-sizing:border-box; text-align:center; border-collapse:collapse; padding:0.9em">
+      <tbody>
+        <tr>
+          <td><span typeof="mw:File"><a href="/wiki/File:Color_SEM_4.jpg" class="mw-file-description"
+                title="Fumarole mineral"><img alt="Fumarole mineral"
+                  src="//upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Color_SEM_4.jpg/500px-Color_SEM_4.jpg"
+                  decoding="async" width="500" height="355" class="mw-file-element"
+                  srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Color_SEM_4.jpg/750px-Color_SEM_4.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Color_SEM_4.jpg/1000px-Color_SEM_4.jpg 2x"
+                  data-file-width="2359" data-file-height="1673" /></a></span>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:0 0.9em; text-align:left;">
+            <p><b><a href="/wiki/Fumarole_mineral" title="Fumarole mineral">Fumarole minerals</a></b> are minerals that
+              are deposited by <a href="/wiki/Fumarole" title="Fumarole">fumarole</a> exhalations. They form when gases
+              and compounds desublimate or precipitate out of condensates, forming mineral deposits. They are mostly
+              associated with volcanoes (as volcanic sublimate or fumarolic sublimate), following <a
+                href="/wiki/Deposition_(phase_transition)" title="Deposition (phase transition)">deposition</a> from
+              volcanic gas during an eruption or discharge from a volcanic vent or fumarole, but have been encountered
+              on <a href="/wiki/Coal-seam_fire" title="Coal-seam fire">burning coal deposits</a> as well. They can be
+              black or multicoloured and are often unstable upon exposure to the atmosphere. This natural-colour <a
+                href="/wiki/Micrograph" title="Micrograph">photomicrograph</a> of fumarole minerals from <a
+                href="/wiki/Mutnovsky" title="Mutnovsky">Mutnovsky</a>, a volcano on the <a
+                href="/wiki/Kamchatka_Peninsula" title="Kamchatka Peninsula">Kamchatka Peninsula</a> in Russia, was
+              taken using a <a href="/wiki/Scanning_electron_microscope" title="Scanning electron microscope">scanning
+                electron microscope</a> and colour-enhanced by optical microscopy. Yellow and red crystals of <a
+                href="/wiki/Thallium(I)_iodide" title="Thallium(I) iodide">thallium(I) iodide</a> are visible, with a
+              gradual transition between the two <a href="/wiki/Crystal_polymorphism"
+                title="Crystal polymorphism">polymorphs</a>. The crystals are located on a substrate of altered rock.
+              This image is 700 micrometres (0.028 in) across on the long side.
+            </p>
+            <p style="text-align:center;"><small>Photograph credit: Mikhail Zelensky</small></p>
+            <div class="potd-recent" style="text-align:right;">
+              Recently featured:
+              <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374" />
+              <div class="hlist inline">
+                <ul>
+                  <li><a href="/wiki/Template:POTD/2024-06-27" title="Template:POTD/2024-06-27"><i>Sabella
+                        spallanzanii</i></a></li>
+                  <li><a href="/wiki/Template:POTD/2024-06-26" title="Template:POTD/2024-06-26">Lord Kelvin</a></li>
+                  <li><a href="/wiki/Template:POTD/2024-06-25" title="Template:POTD/2024-06-25">The Great Train
+                      Robbery</a></li>
+                </ul>
+              </div>
+            </div>
+            <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374" />
+            <div class="hlist potd-footer noprint" style="text-align:right;">
+              <ul>
+                <li><b><a href="/wiki/Wikipedia:Picture_of_the_day/Archive"
+                      title="Wikipedia:Picture of the day/Archive">Archive</a></b></li>
+                <li><b><a href="/wiki/Wikipedia:Featured_pictures" title="Wikipedia:Featured pictures">More featured
+                      pictures</a></b></li>
+              </ul>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </div>
 <div id="mp-bottom" class="mp-box">
-<h2 id="mp-other" class="mp-h2"><span class="mw-headline" id="Other_areas_of_Wikipedia">Other areas of Wikipedia</span></h2>
-<div id="mp-other-content">
-<ul><li><b><a href="/wiki/Wikipedia:Community_portal" title="Wikipedia:Community portal">Community portal</a></b> – The central hub for editors, with resources, links, tasks, and announcements.</li>
-<li><b><a href="/wiki/Wikipedia:Village_pump" title="Wikipedia:Village pump">Village pump</a></b> – Forum for discussions about Wikipedia itself, including policies and technical issues.</li>
-<li><b><a href="/wiki/Wikipedia:News" title="Wikipedia:News">Site news</a></b> – Sources of news about Wikipedia and the broader Wikimedia movement.</li>
-<li><b><a href="/wiki/Wikipedia:Teahouse" title="Wikipedia:Teahouse">Teahouse</a></b> – Ask basic questions about using or editing Wikipedia.</li>
-<li><b><a href="/wiki/Wikipedia:Help_desk" title="Wikipedia:Help desk">Help desk</a></b> – Ask questions about using or editing Wikipedia.</li>
-<li><b><a href="/wiki/Wikipedia:Reference_desk" title="Wikipedia:Reference desk">Reference desk</a></b> – Ask research questions about encyclopedic topics.</li>
-<li><b><a href="/wiki/Wikipedia:Contents/Portals" title="Wikipedia:Contents/Portals">Content portals</a></b> – A unique way to navigate the encyclopedia.</li></ul>
-</div>
-<h2 id="mp-sister" class="mp-h2"><span id="Wikipedia.27s_sister_projects"></span><span class="mw-headline" id="Wikipedia&#39;s_sister_projects">Wikipedia&#39;s sister projects</span></h2>
-<div id="mp-sister-content"><style data-mw-deduplicate="TemplateStyles:r1225992138">.mw-parser-output #sister-projects-list{display:flex;flex-wrap:wrap}.mw-parser-output #sister-projects-list li{display:inline-block}.mw-parser-output #sister-projects-list li span{font-weight:bold}.mw-parser-output #sister-projects-list li>div{display:inline-block;vertical-align:middle;padding:6px 4px}.mw-parser-output #sister-projects-list li>div:first-child{text-align:center}.mw-parser-output .sister-projects-wikt-icon-dark,html.skin-theme-clientpref-night .mw-parser-output .sister-projects-wikt-icon-light{display:none}html.skin-theme-clientpref-night .mw-parser-output .sister-projects-wikt-icon-dark{display:inline}@media(prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sister-projects-wikt-icon-dark{display:inline}html.skin-theme-clientpref-os .mw-parser-output .sister-projects-wikt-icon-light{display:none}}@media(min-width:360px){.mw-parser-output #sister-projects-list li{width:33%;min-width:20em;white-space:nowrap;flex:1 0 25%}.mw-parser-output #sister-projects-list li>div:first-child{min-width:50px}}</style>
-<p>Wikipedia is written by volunteer editors and hosted by the <a href="/wiki/Wikimedia_Foundation" title="Wikimedia Foundation">Wikimedia Foundation</a>, a non-profit organization that also hosts a range of other volunteer <a href="https://wikimediafoundation.org/our-work/wikimedia-projects/" class="extiw" title="foundationsite:our-work/wikimedia-projects/">projects</a>:
-</p>
-<style data-mw-deduplicate="TemplateStyles:r1126788409">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class="plainlist">
-<ul id="sister-projects-list">
-<li>
-  <div><span typeof="mw:File"><a href="https://commons.wikimedia.org/wiki/" title="Commons"><img alt="Commons logo" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/31px-Commons-logo.svg.png" decoding="async" width="31" height="42" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/47px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/62px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376"/></a></span></div>
-  <div><span><a href="https://commons.wikimedia.org/wiki/" class="extiw" title="c:">Commons</a></span><br/>Free media repository</div>
-</li>
-<li>
-  <div><span typeof="mw:File"><a href="https://www.mediawiki.org/wiki/" title="MediaWiki"><img alt="MediaWiki logo" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a6/MediaWiki-2020-icon.svg/35px-MediaWiki-2020-icon.svg.png" decoding="async" width="35" height="35" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a6/MediaWiki-2020-icon.svg/53px-MediaWiki-2020-icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a6/MediaWiki-2020-icon.svg/70px-MediaWiki-2020-icon.svg.png 2x" data-file-width="100" data-file-height="100"/></a></span></div>
-  <div><span><a href="https://www.mediawiki.org/wiki/" class="extiw" title="mw:">MediaWiki</a></span><br/>Wiki software development</div>
-</li>
-<li>
-  <div><span typeof="mw:File"><a href="https://meta.wikimedia.org/wiki/" title="Meta-Wiki"><img alt="Meta-Wiki logo" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/75/Wikimedia_Community_Logo.svg/35px-Wikimedia_Community_Logo.svg.png" decoding="async" width="35" height="35" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/75/Wikimedia_Community_Logo.svg/53px-Wikimedia_Community_Logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/75/Wikimedia_Community_Logo.svg/70px-Wikimedia_Community_Logo.svg.png 2x" data-file-width="900" data-file-height="900"/></a></span></div>
-  <div><span><a href="https://meta.wikimedia.org/wiki/" class="extiw" title="m:">Meta-Wiki</a></span><br/>Wikimedia project coordination</div>
-</li>
-<li>
-  <div><span typeof="mw:File"><a href="https://en.wikibooks.org/wiki/" title="Wikibooks"><img alt="Wikibooks logo" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/35px-Wikibooks-logo.svg.png" decoding="async" width="35" height="35" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/53px-Wikibooks-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/70px-Wikibooks-logo.svg.png 2x" data-file-width="300" data-file-height="300"/></a></span></div>
-  <div><span><a href="https://en.wikibooks.org/wiki/" class="extiw" title="b:">Wikibooks</a></span><br/>Free textbooks and manuals</div>
-</li>
-<li>
-  <div><span typeof="mw:File"><a href="https://www.wikidata.org/wiki/" title="Wikidata"><img alt="Wikidata logo" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/47px-Wikidata-logo.svg.png" decoding="async" width="47" height="26" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/71px-Wikidata-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/94px-Wikidata-logo.svg.png 2x" data-file-width="1050" data-file-height="590"/></a></span></div>
-  <div><span><a href="https://www.wikidata.org/wiki/" class="extiw" title="d:">Wikidata</a></span><br/>Free knowledge base</div>
-</li>
-<li>
-  <div><span typeof="mw:File"><a href="https://en.wikinews.org/wiki/" title="Wikinews"><img alt="Wikinews logo" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/51px-Wikinews-logo.svg.png" decoding="async" width="51" height="28" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/77px-Wikinews-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/102px-Wikinews-logo.svg.png 2x" data-file-width="759" data-file-height="415"/></a></span></div>
-  <div><span><a href="https://en.wikinews.org/wiki/" class="extiw" title="n:">Wikinews</a></span><br/>Free-content news</div>
-</li>
-<li>
-  <div><span typeof="mw:File"><a href="https://en.wikiquote.org/wiki/" title="Wikiquote"><img alt="Wikiquote logo" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/35px-Wikiquote-logo.svg.png" decoding="async" width="35" height="41" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/53px-Wikiquote-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/70px-Wikiquote-logo.svg.png 2x" data-file-width="300" data-file-height="355"/></a></span></div>
-  <div><span><a href="https://en.wikiquote.org/wiki/" class="extiw" title="q:">Wikiquote</a></span><br/>Collection of quotations</div>
-</li>
-<li>
-  <div><span typeof="mw:File"><a href="https://en.wikisource.org/wiki/" title="Wikisource"><img alt="Wikisource logo" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/35px-Wikisource-logo.svg.png" decoding="async" width="35" height="37" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/53px-Wikisource-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/70px-Wikisource-logo.svg.png 2x" data-file-width="410" data-file-height="430"/></a></span></div>
-  <div><span><a href="https://en.wikisource.org/wiki/" class="extiw" title="s:">Wikisource</a></span><br/>Free-content library</div>
-</li>
-<li>
-  <div><span typeof="mw:File"><a href="https://species.wikimedia.org/wiki/" title="Wikispecies"><img alt="Wikispecies logo" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikispecies-logo.svg/35px-Wikispecies-logo.svg.png" decoding="async" width="35" height="41" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikispecies-logo.svg/53px-Wikispecies-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikispecies-logo.svg/70px-Wikispecies-logo.svg.png 2x" data-file-width="941" data-file-height="1103"/></a></span></div>
-  <div><span><a href="https://species.wikimedia.org/wiki/" class="extiw" title="species:">Wikispecies</a></span><br/>Directory of species</div>
-</li>
-<li>
-  <div><span typeof="mw:File"><a href="https://en.wikiversity.org/wiki/" title="Wikiversity"><img alt="Wikiversity logo" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Wikiversity_logo_2017.svg/41px-Wikiversity_logo_2017.svg.png" decoding="async" width="41" height="34" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Wikiversity_logo_2017.svg/62px-Wikiversity_logo_2017.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Wikiversity_logo_2017.svg/82px-Wikiversity_logo_2017.svg.png 2x" data-file-width="626" data-file-height="512"/></a></span></div>
-  <div><span><a href="https://en.wikiversity.org/wiki/" class="extiw" title="v:">Wikiversity</a></span><br/>Free learning tools</div>
-</li>
-<li>
-  <div><span typeof="mw:File"><a href="https://en.wikivoyage.org/wiki/" title="Wikivoyage"><img alt="Wikivoyage logo" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Wikivoyage-Logo-v3-icon.svg/35px-Wikivoyage-Logo-v3-icon.svg.png" decoding="async" width="35" height="35" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Wikivoyage-Logo-v3-icon.svg/53px-Wikivoyage-Logo-v3-icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Wikivoyage-Logo-v3-icon.svg/70px-Wikivoyage-Logo-v3-icon.svg.png 2x" data-file-width="193" data-file-height="193"/></a></span></div>
-  <div><span><a href="https://en.wikivoyage.org/wiki/" class="extiw" title="voy:">Wikivoyage</a></span><br/>Free travel guide</div>
-</li>
-<li>
-  <div><span class="sister-projects-wikt-icon-light"><span typeof="mw:File"><a href="https://en.wiktionary.org/wiki/" title="Wiktionary"><img alt="Wiktionary logo" src="//upload.wikimedia.org/wikipedia/en/thumb/0/06/Wiktionary-logo-v2.svg/35px-Wiktionary-logo-v2.svg.png" decoding="async" width="35" height="35" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/en/thumb/0/06/Wiktionary-logo-v2.svg/53px-Wiktionary-logo-v2.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/0/06/Wiktionary-logo-v2.svg/70px-Wiktionary-logo-v2.svg.png 2x" data-file-width="391" data-file-height="391"/></a></span></span><span class="sister-projects-wikt-icon-dark"><span typeof="mw:File"><a href="https://en.wiktionary.org/wiki/" title="Wiktionary"><img alt="Wiktionary logo" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Wiktionary-logo.svg/41px-Wiktionary-logo.svg.png" decoding="async" width="41" height="39" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Wiktionary-logo.svg/62px-Wiktionary-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Wiktionary-logo.svg/82px-Wiktionary-logo.svg.png 2x" data-file-width="370" data-file-height="350"/></a></span></span></div>
-  <div><span><a href="https://en.wiktionary.org/wiki/" class="extiw" title="wikt:">Wiktionary</a></span><br/>Dictionary and thesaurus</div>
-</li>
-</ul>
-</div></div>
-<h2 id="mp-lang" class="mp-h2"><span class="mw-headline" id="Wikipedia_languages">Wikipedia languages</span></h2>
-<div><style data-mw-deduplicate="TemplateStyles:r997272951">.mw-parser-output .wikipedia-languages-complete{font-weight:bold}.mw-parser-output .wikipedia-languages ul{margin-left:0}.mw-parser-output .wikipedia-languages ul a{white-space:nowrap}.mw-parser-output .wikipedia-languages>ul{list-style:none;text-align:center;clear:both}.mw-parser-output .wikipedia-languages-count-container{width:90%;display:flex;justify-content:center;padding-top:1em;margin:0 auto}.mw-parser-output .wikipedia-languages-prettybars{width:100%;height:1px;margin:0.5em 0;background-color:#c8ccd1;flex-shrink:1;align-self:center}.mw-parser-output .wikipedia-languages-count{padding:0 1em;white-space:nowrap}</style>
-<div class="wikipedia-languages nourlexpansion">
-<p>This Wikipedia is written in <a href="/wiki/English_language" title="English language">English</a>. Many <a href="https://meta.wikimedia.org/wiki/List_of_Wikipedias" class="extiw" title="meta:List of Wikipedias">other Wikipedias are available</a>; some of the largest are listed below.
-</p>
-<ul class="plainlinks">
-<li>
-  <div class="wikipedia-languages-count-container">
-    <div class="wikipedia-languages-prettybars"></div>
-    <div role="heading" aria-level="3" class="wikipedia-languages-count">1,000,000+ articles</div>
-    <div class="wikipedia-languages-prettybars"></div>
+  <h2 id="mp-other" class="mp-h2"><span class="mw-headline" id="Other_areas_of_Wikipedia">Other areas of
+      Wikipedia</span></h2>
+  <div id="mp-other-content">
+    <ul>
+      <li><b><a href="/wiki/Wikipedia:Community_portal" title="Wikipedia:Community portal">Community portal</a></b> –
+        The central hub for editors, with resources, links, tasks, and announcements.</li>
+      <li><b><a href="/wiki/Wikipedia:Village_pump" title="Wikipedia:Village pump">Village pump</a></b> – Forum for
+        discussions about Wikipedia itself, including policies and technical issues.</li>
+      <li><b><a href="/wiki/Wikipedia:News" title="Wikipedia:News">Site news</a></b> – Sources of news about Wikipedia
+        and the broader Wikimedia movement.</li>
+      <li><b><a href="/wiki/Wikipedia:Teahouse" title="Wikipedia:Teahouse">Teahouse</a></b> – Ask basic questions about
+        using or editing Wikipedia.</li>
+      <li><b><a href="/wiki/Wikipedia:Help_desk" title="Wikipedia:Help desk">Help desk</a></b> – Ask questions about
+        using or editing Wikipedia.</li>
+      <li><b><a href="/wiki/Wikipedia:Reference_desk" title="Wikipedia:Reference desk">Reference desk</a></b> – Ask
+        research questions about encyclopedic topics.</li>
+      <li><b><a href="/wiki/Wikipedia:Contents/Portals" title="Wikipedia:Contents/Portals">Content portals</a></b> – A
+        unique way to navigate the encyclopedia.</li>
+    </ul>
   </div>
-<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><div class="hlist wikipedia-languages-langs inline">
-<ul><li><a class="external text" href="https://ar.wikipedia.org/wiki/"><span class="autonym" title="Arabic (ar:)" lang="ar">العربية</span></a></li>
-<li><a class="external text" href="https://arz.wikipedia.org/wiki/"><span class="autonym" title="Egyptian Arabic (arz:)" lang="arz">مصرى</span></a></li>
-<li><a class="external text" href="https://de.wikipedia.org/wiki/"><span class="autonym" title="German (de:)" lang="de">Deutsch</span></a></li>
-<li><a class="external text" href="https://es.wikipedia.org/wiki/"><span class="autonym" title="Spanish (es:)" lang="es">Español</span></a></li>
-<li><a class="external text" href="https://fa.wikipedia.org/wiki/"><span class="autonym" title="Persian (fa:)" lang="fa">فارسی</span></a>‎</li>
-<li><a class="external text" href="https://fr.wikipedia.org/wiki/"><span class="autonym" title="French (fr:)" lang="fr">Français</span></a></li>
-<li><a class="external text" href="https://it.wikipedia.org/wiki/"><span class="autonym" title="Italian (it:)" lang="it">Italiano</span></a></li>
-<li><a class="external text" href="https://nl.wikipedia.org/wiki/"><span class="autonym" title="Dutch (nl:)" lang="nl">Nederlands</span></a></li>
-<li><a class="external text" href="https://ja.wikipedia.org/wiki/"><span class="autonym" title="Japanese (ja:)" lang="ja">日本語</span></a></li>
-<li><a class="external text" href="https://pl.wikipedia.org/wiki/"><span class="autonym" title="Polish (pl:)" lang="pl">Polski</span></a></li>
-<li><a class="external text" href="https://pt.wikipedia.org/wiki/"><span class="autonym" title="Portuguese (pt:)" lang="pt">Português</span></a></li>
-<li><a class="external text" href="https://ru.wikipedia.org/wiki/"><span class="autonym" title="Russian (ru:)" lang="ru">Русский</span></a></li>
-<li><a class="external text" href="https://sv.wikipedia.org/wiki/"><span class="autonym" title="Swedish (sv:)" lang="sv">Svenska</span></a></li>
-<li><a class="external text" href="https://uk.wikipedia.org/wiki/"><span class="autonym" title="Ukrainian (uk:)" lang="uk">Українська</span></a></li>
-<li><a class="external text" href="https://vi.wikipedia.org/wiki/"><span class="autonym" title="Vietnamese (vi:)" lang="vi">Tiếng Việt</span></a></li>
-<li><a class="external text" href="https://zh.wikipedia.org/wiki/"><span class="autonym" title="Chinese (zh:)" lang="zh">中文</span></a></li></ul>
-</div>
-</li>
-<li>
-  <div class="wikipedia-languages-count-container">
-    <div class="wikipedia-languages-prettybars"></div>
-    <div role="heading" aria-level="3" class="wikipedia-languages-count">250,000+ articles</div>
-    <div class="wikipedia-languages-prettybars"></div>
+  <h2 id="mp-sister" class="mp-h2"><span id="Wikipedia.27s_sister_projects"></span><span class="mw-headline"
+      id="Wikipedia&#39;s_sister_projects">Wikipedia&#39;s sister projects</span></h2>
+  <div id="mp-sister-content">
+    <style data-mw-deduplicate="TemplateStyles:r1225992138">
+      .mw-parser-output #sister-projects-list {
+        display: flex;
+        flex-wrap: wrap
+      }
+
+      .mw-parser-output #sister-projects-list li {
+        display: inline-block
+      }
+
+      .mw-parser-output #sister-projects-list li span {
+        font-weight: bold
+      }
+
+      .mw-parser-output #sister-projects-list li>div {
+        display: inline-block;
+        vertical-align: middle;
+        padding: 6px 4px
+      }
+
+      .mw-parser-output #sister-projects-list li>div:first-child {
+        text-align: center
+      }
+
+      .mw-parser-output .sister-projects-wikt-icon-dark,
+      html.skin-theme-clientpref-night .mw-parser-output .sister-projects-wikt-icon-light {
+        display: none
+      }
+
+      html.skin-theme-clientpref-night .mw-parser-output .sister-projects-wikt-icon-dark {
+        display: inline
+      }
+
+      @media(prefers-color-scheme:dark) {
+        html.skin-theme-clientpref-os .mw-parser-output .sister-projects-wikt-icon-dark {
+          display: inline
+        }
+
+        html.skin-theme-clientpref-os .mw-parser-output .sister-projects-wikt-icon-light {
+          display: none
+        }
+      }
+
+      @media(min-width:360px) {
+        .mw-parser-output #sister-projects-list li {
+          width: 33%;
+          min-width: 20em;
+          white-space: nowrap;
+          flex: 1 0 25%
+        }
+
+        .mw-parser-output #sister-projects-list li>div:first-child {
+          min-width: 50px
+        }
+      }
+    </style>
+    <p>Wikipedia is written by volunteer editors and hosted by the <a href="/wiki/Wikimedia_Foundation"
+        title="Wikimedia Foundation">Wikimedia Foundation</a>, a non-profit organization that also hosts a range of
+      other volunteer <a href="https://wikimediafoundation.org/our-work/wikimedia-projects/" class="extiw"
+        title="foundationsite:our-work/wikimedia-projects/">projects</a>:
+    </p>
+    <style data-mw-deduplicate="TemplateStyles:r1126788409">
+      .mw-parser-output .plainlist ol,
+      .mw-parser-output .plainlist ul {
+        line-height: inherit;
+        list-style: none;
+        margin: 0;
+        padding: 0
+      }
+
+      .mw-parser-output .plainlist ol li,
+      .mw-parser-output .plainlist ul li {
+        margin-bottom: 0
+      }
+    </style>
+    <div class="plainlist">
+      <ul id="sister-projects-list">
+        <li>
+          <div><span typeof="mw:File"><a href="https://commons.wikimedia.org/wiki/" title="Commons"><img
+                  alt="Commons logo"
+                  src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/31px-Commons-logo.svg.png"
+                  decoding="async" width="31" height="42" class="mw-file-element"
+                  srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/47px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/62px-Commons-logo.svg.png 2x"
+                  data-file-width="1024" data-file-height="1376" /></a></span></div>
+          <div><span><a href="https://commons.wikimedia.org/wiki/" class="extiw" title="c:">Commons</a></span><br />Free
+            media repository</div>
+        </li>
+        <li>
+          <div><span typeof="mw:File"><a href="https://www.mediawiki.org/wiki/" title="MediaWiki"><img
+                  alt="MediaWiki logo"
+                  src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a6/MediaWiki-2020-icon.svg/35px-MediaWiki-2020-icon.svg.png"
+                  decoding="async" width="35" height="35" class="mw-file-element"
+                  srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a6/MediaWiki-2020-icon.svg/53px-MediaWiki-2020-icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a6/MediaWiki-2020-icon.svg/70px-MediaWiki-2020-icon.svg.png 2x"
+                  data-file-width="100" data-file-height="100" /></a></span></div>
+          <div><span><a href="https://www.mediawiki.org/wiki/" class="extiw" title="mw:">MediaWiki</a></span><br />Wiki
+            software development</div>
+        </li>
+        <li>
+          <div><span typeof="mw:File"><a href="https://meta.wikimedia.org/wiki/" title="Meta-Wiki"><img
+                  alt="Meta-Wiki logo"
+                  src="//upload.wikimedia.org/wikipedia/commons/thumb/7/75/Wikimedia_Community_Logo.svg/35px-Wikimedia_Community_Logo.svg.png"
+                  decoding="async" width="35" height="35" class="mw-file-element"
+                  srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/75/Wikimedia_Community_Logo.svg/53px-Wikimedia_Community_Logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/75/Wikimedia_Community_Logo.svg/70px-Wikimedia_Community_Logo.svg.png 2x"
+                  data-file-width="900" data-file-height="900" /></a></span></div>
+          <div><span><a href="https://meta.wikimedia.org/wiki/" class="extiw"
+                title="m:">Meta-Wiki</a></span><br />Wikimedia project coordination</div>
+        </li>
+        <li>
+          <div><span typeof="mw:File"><a href="https://en.wikibooks.org/wiki/" title="Wikibooks"><img
+                  alt="Wikibooks logo"
+                  src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/35px-Wikibooks-logo.svg.png"
+                  decoding="async" width="35" height="35" class="mw-file-element"
+                  srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/53px-Wikibooks-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/70px-Wikibooks-logo.svg.png 2x"
+                  data-file-width="300" data-file-height="300" /></a></span></div>
+          <div><span><a href="https://en.wikibooks.org/wiki/" class="extiw" title="b:">Wikibooks</a></span><br />Free
+            textbooks and manuals</div>
+        </li>
+        <li>
+          <div><span typeof="mw:File"><a href="https://www.wikidata.org/wiki/" title="Wikidata"><img alt="Wikidata logo"
+                  src="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/47px-Wikidata-logo.svg.png"
+                  decoding="async" width="47" height="26" class="mw-file-element"
+                  srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/71px-Wikidata-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/94px-Wikidata-logo.svg.png 2x"
+                  data-file-width="1050" data-file-height="590" /></a></span></div>
+          <div><span><a href="https://www.wikidata.org/wiki/" class="extiw" title="d:">Wikidata</a></span><br />Free
+            knowledge base</div>
+        </li>
+        <li>
+          <div><span typeof="mw:File"><a href="https://en.wikinews.org/wiki/" title="Wikinews"><img alt="Wikinews logo"
+                  src="//upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/51px-Wikinews-logo.svg.png"
+                  decoding="async" width="51" height="28" class="mw-file-element"
+                  srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/77px-Wikinews-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/102px-Wikinews-logo.svg.png 2x"
+                  data-file-width="759" data-file-height="415" /></a></span></div>
+          <div><span><a href="https://en.wikinews.org/wiki/" class="extiw"
+                title="n:">Wikinews</a></span><br />Free-content news</div>
+        </li>
+        <li>
+          <div><span typeof="mw:File"><a href="https://en.wikiquote.org/wiki/" title="Wikiquote"><img
+                  alt="Wikiquote logo"
+                  src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/35px-Wikiquote-logo.svg.png"
+                  decoding="async" width="35" height="41" class="mw-file-element"
+                  srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/53px-Wikiquote-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/70px-Wikiquote-logo.svg.png 2x"
+                  data-file-width="300" data-file-height="355" /></a></span></div>
+          <div><span><a href="https://en.wikiquote.org/wiki/" class="extiw"
+                title="q:">Wikiquote</a></span><br />Collection of quotations</div>
+        </li>
+        <li>
+          <div><span typeof="mw:File"><a href="https://en.wikisource.org/wiki/" title="Wikisource"><img
+                  alt="Wikisource logo"
+                  src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/35px-Wikisource-logo.svg.png"
+                  decoding="async" width="35" height="37" class="mw-file-element"
+                  srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/53px-Wikisource-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/70px-Wikisource-logo.svg.png 2x"
+                  data-file-width="410" data-file-height="430" /></a></span></div>
+          <div><span><a href="https://en.wikisource.org/wiki/" class="extiw"
+                title="s:">Wikisource</a></span><br />Free-content library</div>
+        </li>
+        <li>
+          <div><span typeof="mw:File"><a href="https://species.wikimedia.org/wiki/" title="Wikispecies"><img
+                  alt="Wikispecies logo"
+                  src="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikispecies-logo.svg/35px-Wikispecies-logo.svg.png"
+                  decoding="async" width="35" height="41" class="mw-file-element"
+                  srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikispecies-logo.svg/53px-Wikispecies-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikispecies-logo.svg/70px-Wikispecies-logo.svg.png 2x"
+                  data-file-width="941" data-file-height="1103" /></a></span></div>
+          <div><span><a href="https://species.wikimedia.org/wiki/" class="extiw"
+                title="species:">Wikispecies</a></span><br />Directory of species</div>
+        </li>
+        <li>
+          <div><span typeof="mw:File"><a href="https://en.wikiversity.org/wiki/" title="Wikiversity"><img
+                  alt="Wikiversity logo"
+                  src="//upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Wikiversity_logo_2017.svg/41px-Wikiversity_logo_2017.svg.png"
+                  decoding="async" width="41" height="34" class="mw-file-element"
+                  srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Wikiversity_logo_2017.svg/62px-Wikiversity_logo_2017.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Wikiversity_logo_2017.svg/82px-Wikiversity_logo_2017.svg.png 2x"
+                  data-file-width="626" data-file-height="512" /></a></span></div>
+          <div><span><a href="https://en.wikiversity.org/wiki/" class="extiw"
+                title="v:">Wikiversity</a></span><br />Free learning tools</div>
+        </li>
+        <li>
+          <div><span typeof="mw:File"><a href="https://en.wikivoyage.org/wiki/" title="Wikivoyage"><img
+                  alt="Wikivoyage logo"
+                  src="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Wikivoyage-Logo-v3-icon.svg/35px-Wikivoyage-Logo-v3-icon.svg.png"
+                  decoding="async" width="35" height="35" class="mw-file-element"
+                  srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Wikivoyage-Logo-v3-icon.svg/53px-Wikivoyage-Logo-v3-icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Wikivoyage-Logo-v3-icon.svg/70px-Wikivoyage-Logo-v3-icon.svg.png 2x"
+                  data-file-width="193" data-file-height="193" /></a></span></div>
+          <div><span><a href="https://en.wikivoyage.org/wiki/" class="extiw"
+                title="voy:">Wikivoyage</a></span><br />Free travel guide</div>
+        </li>
+        <li>
+          <div><span class="sister-projects-wikt-icon-light"><span typeof="mw:File"><a
+                  href="https://en.wiktionary.org/wiki/" title="Wiktionary"><img alt="Wiktionary logo"
+                    src="//upload.wikimedia.org/wikipedia/en/thumb/0/06/Wiktionary-logo-v2.svg/35px-Wiktionary-logo-v2.svg.png"
+                    decoding="async" width="35" height="35" class="mw-file-element"
+                    srcset="//upload.wikimedia.org/wikipedia/en/thumb/0/06/Wiktionary-logo-v2.svg/53px-Wiktionary-logo-v2.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/0/06/Wiktionary-logo-v2.svg/70px-Wiktionary-logo-v2.svg.png 2x"
+                    data-file-width="391" data-file-height="391" /></a></span></span><span
+              class="sister-projects-wikt-icon-dark"><span typeof="mw:File"><a href="https://en.wiktionary.org/wiki/"
+                  title="Wiktionary"><img alt="Wiktionary logo"
+                    src="//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Wiktionary-logo.svg/41px-Wiktionary-logo.svg.png"
+                    decoding="async" width="41" height="39" class="mw-file-element"
+                    srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Wiktionary-logo.svg/62px-Wiktionary-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Wiktionary-logo.svg/82px-Wiktionary-logo.svg.png 2x"
+                    data-file-width="370" data-file-height="350" /></a></span></span></div>
+          <div><span><a href="https://en.wiktionary.org/wiki/" class="extiw"
+                title="wikt:">Wiktionary</a></span><br />Dictionary and thesaurus</div>
+        </li>
+      </ul>
+    </div>
   </div>
-<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><div class="hlist wikipedia-languages-langs inline">
-<ul><li><a class="external text" href="https://id.wikipedia.org/wiki/"><span class="autonym" title="Indonesian (id:)" lang="id">Bahasa Indonesia</span></a></li>
-<li><a class="external text" href="https://ms.wikipedia.org/wiki/"><span class="autonym" title="Malay (ms:)" lang="ms">Bahasa Melayu</span></a></li>
-<li><a class="external text" href="https://zh-min-nan.wikipedia.org/wiki/"><span class="autonym" title="Minnan (nan:)" lang="nan">閩南語 / Bân-lâm-gú</span></a></li>
-<li><a class="external text" href="https://bg.wikipedia.org/wiki/"><span class="autonym" title="Bulgarian (bg:)" lang="bg">Български</span></a></li>
-<li><a class="external text" href="https://ca.wikipedia.org/wiki/"><span class="autonym" title="Catalan (ca:)" lang="ca">Català</span></a></li>
-<li><a class="external text" href="https://cs.wikipedia.org/wiki/"><span class="autonym" title="Czech (cs:)" lang="cs">Čeština</span></a></li>
-<li><a class="external text" href="https://da.wikipedia.org/wiki/"><span class="autonym" title="Danish (da:)" lang="da">Dansk</span></a></li>
-<li><a class="external text" href="https://eo.wikipedia.org/wiki/"><span class="autonym" title="Esperanto (eo:)" lang="eo">Esperanto</span></a></li>
-<li><a class="external text" href="https://eu.wikipedia.org/wiki/"><span class="autonym" title="Basque (eu:)" lang="eu">Euskara</span></a></li>
-<li><a class="external text" href="https://he.wikipedia.org/wiki/"><span class="autonym" title="Hebrew (he:)" lang="he">עברית</span></a></li>
-<li><a class="external text" href="https://hy.wikipedia.org/wiki/"><span class="autonym" title="Armenian (hy:)" lang="hy">Հայերեն</span></a></li>
-<li><a class="external text" href="https://ko.wikipedia.org/wiki/"><span class="autonym" title="Korean (ko:)" lang="ko">한국어</span></a></li>
-<li><a class="external text" href="https://hu.wikipedia.org/wiki/"><span class="autonym" title="Hungarian (hu:)" lang="hu">Magyar</span></a></li>
-<li><a class="external text" href="https://no.wikipedia.org/wiki/"><span class="autonym" title="Norwegian (no:)" lang="no">Norsk bokmål</span></a></li>
-<li><a class="external text" href="https://ro.wikipedia.org/wiki/"><span class="autonym" title="Romanian (ro:)" lang="ro">Română</span></a></li>
-<li><a class="external text" href="https://simple.wikipedia.org/wiki/"><span class="autonym" title="Simple English (simple:)" lang="en">Simple English</span></a></li>
-<li><a class="external text" href="https://sr.wikipedia.org/wiki/"><span class="autonym" title="Serbian (sr:)" lang="sr">Srpski</span></a></li>
-<li><a class="external text" href="https://sh.wikipedia.org/wiki/"><span class="autonym" title="Serbo-Croatian (sh:)" lang="sh">Srpskohrvatski</span></a></li>
-<li><a class="external text" href="https://fi.wikipedia.org/wiki/"><span class="autonym" title="Finnish (fi:)" lang="fi">Suomi</span></a></li>
-<li><a class="external text" href="https://tr.wikipedia.org/wiki/"><span class="autonym" title="Turkish (tr:)" lang="tr">Türkçe</span></a></li>
-<li><a class="external text" href="https://uz.wikipedia.org/wiki/"><span class="autonym" title="Uzbek (uz:)" lang="uz">Oʻzbekcha / ўзбекча</span></a></li></ul>
-</div>
-</li>
-<li>
-  <div class="wikipedia-languages-count-container">
-    <div class="wikipedia-languages-prettybars"></div>
-    <div role="heading" aria-level="3" class="wikipedia-languages-count">50,000+ articles</div>
-    <div class="wikipedia-languages-prettybars"></div>
+  <h2 id="mp-lang" class="mp-h2"><span class="mw-headline" id="Wikipedia_languages">Wikipedia languages</span></h2>
+  <div>
+    <style data-mw-deduplicate="TemplateStyles:r997272951">
+      .mw-parser-output .wikipedia-languages-complete {
+        font-weight: bold
+      }
+
+      .mw-parser-output .wikipedia-languages ul {
+        margin-left: 0
+      }
+
+      .mw-parser-output .wikipedia-languages ul a {
+        white-space: nowrap
+      }
+
+      .mw-parser-output .wikipedia-languages>ul {
+        list-style: none;
+        text-align: center;
+        clear: both
+      }
+
+      .mw-parser-output .wikipedia-languages-count-container {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        padding-top: 1em;
+        margin: 0 auto
+      }
+
+      .mw-parser-output .wikipedia-languages-prettybars {
+        width: 100%;
+        height: 1px;
+        margin: 0.5em 0;
+        background-color: #c8ccd1;
+        flex-shrink: 1;
+        align-self: center
+      }
+
+      .mw-parser-output .wikipedia-languages-count {
+        padding: 0 1em;
+        white-space: nowrap
+      }
+    </style>
+    <div class="wikipedia-languages nourlexpansion">
+      <p>This Wikipedia is written in <a href="/wiki/English_language" title="English language">English</a>. Many <a
+          href="https://meta.wikimedia.org/wiki/List_of_Wikipedias" class="extiw" title="meta:List of Wikipedias">other
+          Wikipedias are available</a>; some of the largest are listed below.
+      </p>
+      <ul class="plainlinks">
+        <li>
+          <div class="wikipedia-languages-count-container">
+            <div class="wikipedia-languages-prettybars"></div>
+            <div role="heading" aria-level="3" class="wikipedia-languages-count">1,000,000+ articles</div>
+            <div class="wikipedia-languages-prettybars"></div>
+          </div>
+          <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374" />
+          <div class="hlist wikipedia-languages-langs inline">
+            <ul>
+              <li><a class="external text" href="https://ar.wikipedia.org/wiki/"><span class="autonym"
+                    title="Arabic (ar:)" lang="ar">العربية</span></a></li>
+              <li><a class="external text" href="https://arz.wikipedia.org/wiki/"><span class="autonym"
+                    title="Egyptian Arabic (arz:)" lang="arz">مصرى</span></a></li>
+              <li><a class="external text" href="https://de.wikipedia.org/wiki/"><span class="autonym"
+                    title="German (de:)" lang="de">Deutsch</span></a></li>
+              <li><a class="external text" href="https://es.wikipedia.org/wiki/"><span class="autonym"
+                    title="Spanish (es:)" lang="es">Español</span></a></li>
+              <li><a class="external text" href="https://fa.wikipedia.org/wiki/"><span class="autonym"
+                    title="Persian (fa:)" lang="fa">فارسی</span></a>‎</li>
+              <li><a class="external text" href="https://fr.wikipedia.org/wiki/"><span class="autonym"
+                    title="French (fr:)" lang="fr">Français</span></a></li>
+              <li><a class="external text" href="https://it.wikipedia.org/wiki/"><span class="autonym"
+                    title="Italian (it:)" lang="it">Italiano</span></a></li>
+              <li><a class="external text" href="https://nl.wikipedia.org/wiki/"><span class="autonym"
+                    title="Dutch (nl:)" lang="nl">Nederlands</span></a></li>
+              <li><a class="external text" href="https://ja.wikipedia.org/wiki/"><span class="autonym"
+                    title="Japanese (ja:)" lang="ja">日本語</span></a></li>
+              <li><a class="external text" href="https://pl.wikipedia.org/wiki/"><span class="autonym"
+                    title="Polish (pl:)" lang="pl">Polski</span></a></li>
+              <li><a class="external text" href="https://pt.wikipedia.org/wiki/"><span class="autonym"
+                    title="Portuguese (pt:)" lang="pt">Português</span></a></li>
+              <li><a class="external text" href="https://ru.wikipedia.org/wiki/"><span class="autonym"
+                    title="Russian (ru:)" lang="ru">Русский</span></a></li>
+              <li><a class="external text" href="https://sv.wikipedia.org/wiki/"><span class="autonym"
+                    title="Swedish (sv:)" lang="sv">Svenska</span></a></li>
+              <li><a class="external text" href="https://uk.wikipedia.org/wiki/"><span class="autonym"
+                    title="Ukrainian (uk:)" lang="uk">Українська</span></a></li>
+              <li><a class="external text" href="https://vi.wikipedia.org/wiki/"><span class="autonym"
+                    title="Vietnamese (vi:)" lang="vi">Tiếng Việt</span></a></li>
+              <li><a class="external text" href="https://zh.wikipedia.org/wiki/"><span class="autonym"
+                    title="Chinese (zh:)" lang="zh">中文</span></a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <div class="wikipedia-languages-count-container">
+            <div class="wikipedia-languages-prettybars"></div>
+            <div role="heading" aria-level="3" class="wikipedia-languages-count">250,000+ articles</div>
+            <div class="wikipedia-languages-prettybars"></div>
+          </div>
+          <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374" />
+          <div class="hlist wikipedia-languages-langs inline">
+            <ul>
+              <li><a class="external text" href="https://id.wikipedia.org/wiki/"><span class="autonym"
+                    title="Indonesian (id:)" lang="id">Bahasa Indonesia</span></a></li>
+              <li><a class="external text" href="https://ms.wikipedia.org/wiki/"><span class="autonym"
+                    title="Malay (ms:)" lang="ms">Bahasa Melayu</span></a></li>
+              <li><a class="external text" href="https://zh-min-nan.wikipedia.org/wiki/"><span class="autonym"
+                    title="Minnan (nan:)" lang="nan">閩南語 / Bân-lâm-gú</span></a></li>
+              <li><a class="external text" href="https://bg.wikipedia.org/wiki/"><span class="autonym"
+                    title="Bulgarian (bg:)" lang="bg">Български</span></a></li>
+              <li><a class="external text" href="https://ca.wikipedia.org/wiki/"><span class="autonym"
+                    title="Catalan (ca:)" lang="ca">Català</span></a></li>
+              <li><a class="external text" href="https://cs.wikipedia.org/wiki/"><span class="autonym"
+                    title="Czech (cs:)" lang="cs">Čeština</span></a></li>
+              <li><a class="external text" href="https://da.wikipedia.org/wiki/"><span class="autonym"
+                    title="Danish (da:)" lang="da">Dansk</span></a></li>
+              <li><a class="external text" href="https://eo.wikipedia.org/wiki/"><span class="autonym"
+                    title="Esperanto (eo:)" lang="eo">Esperanto</span></a></li>
+              <li><a class="external text" href="https://eu.wikipedia.org/wiki/"><span class="autonym"
+                    title="Basque (eu:)" lang="eu">Euskara</span></a></li>
+              <li><a class="external text" href="https://he.wikipedia.org/wiki/"><span class="autonym"
+                    title="Hebrew (he:)" lang="he">עברית</span></a></li>
+              <li><a class="external text" href="https://hy.wikipedia.org/wiki/"><span class="autonym"
+                    title="Armenian (hy:)" lang="hy">Հայերեն</span></a></li>
+              <li><a class="external text" href="https://ko.wikipedia.org/wiki/"><span class="autonym"
+                    title="Korean (ko:)" lang="ko">한국어</span></a></li>
+              <li><a class="external text" href="https://hu.wikipedia.org/wiki/"><span class="autonym"
+                    title="Hungarian (hu:)" lang="hu">Magyar</span></a></li>
+              <li><a class="external text" href="https://no.wikipedia.org/wiki/"><span class="autonym"
+                    title="Norwegian (no:)" lang="no">Norsk bokmål</span></a></li>
+              <li><a class="external text" href="https://ro.wikipedia.org/wiki/"><span class="autonym"
+                    title="Romanian (ro:)" lang="ro">Română</span></a></li>
+              <li><a class="external text" href="https://simple.wikipedia.org/wiki/"><span class="autonym"
+                    title="Simple English (simple:)" lang="en">Simple English</span></a></li>
+              <li><a class="external text" href="https://sr.wikipedia.org/wiki/"><span class="autonym"
+                    title="Serbian (sr:)" lang="sr">Srpski</span></a></li>
+              <li><a class="external text" href="https://sh.wikipedia.org/wiki/"><span class="autonym"
+                    title="Serbo-Croatian (sh:)" lang="sh">Srpskohrvatski</span></a></li>
+              <li><a class="external text" href="https://fi.wikipedia.org/wiki/"><span class="autonym"
+                    title="Finnish (fi:)" lang="fi">Suomi</span></a></li>
+              <li><a class="external text" href="https://tr.wikipedia.org/wiki/"><span class="autonym"
+                    title="Turkish (tr:)" lang="tr">Türkçe</span></a></li>
+              <li><a class="external text" href="https://uz.wikipedia.org/wiki/"><span class="autonym"
+                    title="Uzbek (uz:)" lang="uz">Oʻzbekcha / ўзбекча</span></a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <div class="wikipedia-languages-count-container">
+            <div class="wikipedia-languages-prettybars"></div>
+            <div role="heading" aria-level="3" class="wikipedia-languages-count">50,000+ articles</div>
+            <div class="wikipedia-languages-prettybars"></div>
+          </div>
+          <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374" />
+          <div class="hlist wikipedia-languages-langs inline">
+            <ul>
+              <li><a class="external text" href="https://ast.wikipedia.org/wiki/"><span class="autonym"
+                    title="Asturian (ast:)" lang="ast">Asturianu</span></a></li>
+              <li><a class="external text" href="https://az.wikipedia.org/wiki/"><span class="autonym"
+                    title="Azerbaijani (az:)" lang="az">Azərbaycanca</span></a></li>
+              <li><a class="external text" href="https://bn.wikipedia.org/wiki/"><span class="autonym"
+                    title="Bangla (bn:)" lang="bn">বাংলা</span></a></li>
+              <li><a class="external text" href="https://bs.wikipedia.org/wiki/"><span class="autonym"
+                    title="Bosnian (bs:)" lang="bs">Bosanski</span></a></li>
+              <li><a class="external text" href="https://ckb.wikipedia.org/wiki/"><span class="autonym"
+                    title="Central Kurdish (ckb:)" lang="ckb">کوردی</span></a></li>
+              <li><a class="external text" href="https://et.wikipedia.org/wiki/"><span class="autonym"
+                    title="Estonian (et:)" lang="et">Eesti</span></a></li>
+              <li><a class="external text" href="https://el.wikipedia.org/wiki/"><span class="autonym"
+                    title="Greek (el:)" lang="el">Ελληνικά</span></a></li>
+              <li><a class="external text" href="https://fy.wikipedia.org/wiki/"><span class="autonym"
+                    title="Western Frisian (fy:)" lang="fy">Frysk</span></a></li>
+              <li><a class="external text" href="https://ga.wikipedia.org/wiki/"><span class="autonym"
+                    title="Irish (ga:)" lang="ga">Gaeilge</span></a></li>
+              <li><a class="external text" href="https://gl.wikipedia.org/wiki/"><span class="autonym"
+                    title="Galician (gl:)" lang="gl">Galego</span></a></li>
+              <li><a class="external text" href="https://hr.wikipedia.org/wiki/"><span class="autonym"
+                    title="Croatian (hr:)" lang="hr">Hrvatski</span></a></li>
+              <li><a class="external text" href="https://ka.wikipedia.org/wiki/"><span class="autonym"
+                    title="Georgian (ka:)" lang="ka">ქართული</span></a></li>
+              <li><a class="external text" href="https://ku.wikipedia.org/wiki/"><span class="autonym"
+                    title="Kurdish (ku:)" lang="ku">Kurdî</span></a></li>
+              <li><a class="external text" href="https://lv.wikipedia.org/wiki/"><span class="autonym"
+                    title="Latvian (lv:)" lang="lv">Latviešu</span></a></li>
+              <li><a class="external text" href="https://lt.wikipedia.org/wiki/"><span class="autonym"
+                    title="Lithuanian (lt:)" lang="lt">Lietuvių</span></a></li>
+              <li><a class="external text" href="https://ml.wikipedia.org/wiki/"><span class="autonym"
+                    title="Malayalam (ml:)" lang="ml">മലയാളം</span></a></li>
+              <li><a class="external text" href="https://mk.wikipedia.org/wiki/"><span class="autonym"
+                    title="Macedonian (mk:)" lang="mk">Македонски</span></a></li>
+              <li><a class="external text" href="https://my.wikipedia.org/wiki/"><span class="autonym"
+                    title="Burmese (my:)" lang="my">မြန်မာဘာသာ</span></a></li>
+              <li><a class="external text" href="https://nn.wikipedia.org/wiki/"><span class="autonym"
+                    title="Norwegian Nynorsk (nn:)" lang="nn">Norsk nynorsk</span></a></li>
+              <li><a class="external text" href="https://pa.wikipedia.org/wiki/"><span class="autonym"
+                    title="Punjabi (pa:)" lang="pa">ਪੰਜਾਬੀ</span></a></li>
+              <li><a class="external text" href="https://sq.wikipedia.org/wiki/"><span class="autonym"
+                    title="Albanian (sq:)" lang="sq">Shqip</span></a></li>
+              <li><a class="external text" href="https://sk.wikipedia.org/wiki/"><span class="autonym"
+                    title="Slovak (sk:)" lang="sk">Slovenčina</span></a></li>
+              <li><a class="external text" href="https://sl.wikipedia.org/wiki/"><span class="autonym"
+                    title="Slovenian (sl:)" lang="sl">Slovenščina</span></a></li>
+              <li><a class="external text" href="https://th.wikipedia.org/wiki/"><span class="autonym"
+                    title="Thai (th:)" lang="th">ไทย</span></a></li>
+              <li><a class="external text" href="https://te.wikipedia.org/wiki/"><span class="autonym"
+                    title="Telugu (te:)" lang="te">తెలుగు</span></a></li>
+              <li><a class="external text" href="https://ur.wikipedia.org/wiki/"><span class="autonym"
+                    title="Urdu (ur:)" lang="ur">اردو</span></a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
   </div>
-<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><div class="hlist wikipedia-languages-langs inline">
-<ul><li><a class="external text" href="https://ast.wikipedia.org/wiki/"><span class="autonym" title="Asturian (ast:)" lang="ast">Asturianu</span></a></li>
-<li><a class="external text" href="https://az.wikipedia.org/wiki/"><span class="autonym" title="Azerbaijani (az:)" lang="az">Azərbaycanca</span></a></li>
-<li><a class="external text" href="https://bn.wikipedia.org/wiki/"><span class="autonym" title="Bangla (bn:)" lang="bn">বাংলা</span></a></li>
-<li><a class="external text" href="https://bs.wikipedia.org/wiki/"><span class="autonym" title="Bosnian (bs:)" lang="bs">Bosanski</span></a></li>
-<li><a class="external text" href="https://ckb.wikipedia.org/wiki/"><span class="autonym" title="Central Kurdish (ckb:)" lang="ckb">کوردی</span></a></li>
-<li><a class="external text" href="https://et.wikipedia.org/wiki/"><span class="autonym" title="Estonian (et:)" lang="et">Eesti</span></a></li>
-<li><a class="external text" href="https://el.wikipedia.org/wiki/"><span class="autonym" title="Greek (el:)" lang="el">Ελληνικά</span></a></li>
-<li><a class="external text" href="https://fy.wikipedia.org/wiki/"><span class="autonym" title="Western Frisian (fy:)" lang="fy">Frysk</span></a></li>
-<li><a class="external text" href="https://ga.wikipedia.org/wiki/"><span class="autonym" title="Irish (ga:)" lang="ga">Gaeilge</span></a></li>
-<li><a class="external text" href="https://gl.wikipedia.org/wiki/"><span class="autonym" title="Galician (gl:)" lang="gl">Galego</span></a></li>
-<li><a class="external text" href="https://hr.wikipedia.org/wiki/"><span class="autonym" title="Croatian (hr:)" lang="hr">Hrvatski</span></a></li>
-<li><a class="external text" href="https://ka.wikipedia.org/wiki/"><span class="autonym" title="Georgian (ka:)" lang="ka">ქართული</span></a></li>
-<li><a class="external text" href="https://ku.wikipedia.org/wiki/"><span class="autonym" title="Kurdish (ku:)" lang="ku">Kurdî</span></a></li>
-<li><a class="external text" href="https://lv.wikipedia.org/wiki/"><span class="autonym" title="Latvian (lv:)" lang="lv">Latviešu</span></a></li>
-<li><a class="external text" href="https://lt.wikipedia.org/wiki/"><span class="autonym" title="Lithuanian (lt:)" lang="lt">Lietuvių</span></a></li>
-<li><a class="external text" href="https://ml.wikipedia.org/wiki/"><span class="autonym" title="Malayalam (ml:)" lang="ml">മലയാളം</span></a></li>
-<li><a class="external text" href="https://mk.wikipedia.org/wiki/"><span class="autonym" title="Macedonian (mk:)" lang="mk">Македонски</span></a></li>
-<li><a class="external text" href="https://my.wikipedia.org/wiki/"><span class="autonym" title="Burmese (my:)" lang="my">မြန်မာဘာသာ</span></a></li>
-<li><a class="external text" href="https://nn.wikipedia.org/wiki/"><span class="autonym" title="Norwegian Nynorsk (nn:)" lang="nn">Norsk nynorsk</span></a></li>
-<li><a class="external text" href="https://pa.wikipedia.org/wiki/"><span class="autonym" title="Punjabi (pa:)" lang="pa">ਪੰਜਾਬੀ</span></a></li>
-<li><a class="external text" href="https://sq.wikipedia.org/wiki/"><span class="autonym" title="Albanian (sq:)" lang="sq">Shqip</span></a></li>
-<li><a class="external text" href="https://sk.wikipedia.org/wiki/"><span class="autonym" title="Slovak (sk:)" lang="sk">Slovenčina</span></a></li>
-<li><a class="external text" href="https://sl.wikipedia.org/wiki/"><span class="autonym" title="Slovenian (sl:)" lang="sl">Slovenščina</span></a></li>
-<li><a class="external text" href="https://th.wikipedia.org/wiki/"><span class="autonym" title="Thai (th:)" lang="th">ไทย</span></a></li>
-<li><a class="external text" href="https://te.wikipedia.org/wiki/"><span class="autonym" title="Telugu (te:)" lang="te">తెలుగు</span></a></li>
-<li><a class="external text" href="https://ur.wikipedia.org/wiki/"><span class="autonym" title="Urdu (ur:)" lang="ur">اردو</span></a></li></ul>
 </div>
-</li>
-</ul>
-</div></div>
-</div>                                                
 <!-- 
 NewPP limit report
 Parsed by mw‐web.eqiad.main‐b7d4d997‐jprzp

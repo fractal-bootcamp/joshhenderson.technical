@@ -56,17 +56,27 @@ var rootCmd = &cobra.Command{
 		// if err != nil {
 		// 	log.Fatal(err)
 		// }
+		doc.Find("div.mw-content-ltr").Each(func(index int, item *goquery.Selection) {
+			item.Find("p").Each(func(index int, item *goquery.Selection) {
+				item.Find("b").Each(func(i int, s *goquery.Selection) {
+					url := s.Find("a")
+					fmt.Println(url.Text())
+				})
+			})
+			// doc.Find("div.mw-content-ltr").Find("p").Each(func(index int, item *goquery.Selection) {
+			// 	item.Find("b").Each(func(i int, s *goquery.Selection) {
+			// 		url := s.Find("a")
+			// 		fmt.Println(url.Text())
+			// 	})
+			// Attr("href")
 
-		doc.Find("div.mw-content-ltr").Find("p").Each(func(index int, item *goquery.Selection) {
-			url, _ := item.Find("a").Attr("href")
-			fmt.Println(url)
 		})
 
 		//fmt.Println(links) // print links
 		//writeFile(section, "wiki")
 		//fmt.Println(section)
-		fmt.Println(h2)
-		fmt.Println("visual break")
+		fmt.Println(h2)             // prints h2
+		fmt.Println("visual break") // prints to console so i know what's going on with the file
 
 		// file, _ := os.Open("./cmd/example.txt")
 		// bytes, _ := io.ReadAll(file)
